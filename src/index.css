@@ -1,14 +1,21 @@
 @import 'antd/dist/antd.css';
 
 html,body {
-  background-color: #000;
+  background-color: #08060B;
 }
 
 /* reset antd style */
 .ant-layout {
-  background-color: #000;
+  background-color: #08060B;
 }
 .ant-layout-footer {
   background: none;
   padding: 0;
 }
+/* 
+@media (min-width: 1000px) {
+  @import './desktop.scss';
+}
+@media (max-width: 999px) {
+  @import './mobile.scss';
+} */
