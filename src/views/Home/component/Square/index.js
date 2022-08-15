@@ -16,18 +16,18 @@ const Square = () => {
       <img className="bot_logo" src={logo2}></img>
       <div className="bot_word">
         <Row>
-            <Col span={6}>
-                <p>23</p>
-                <p className="smile">Factors of attention</p>
-            </Col>
-            <Col span={6}>
-                <p>23</p>
-                <p className="smile">Factors of attention</p>
-            </Col>
-            <Col span={6}>
-                <p>23</p>
-                <p className="smile">Factors of attention</p>
-            </Col>
+          <Col span={6}>
+            <p>23</p>
+            <p className="smile">Factors of attention</p>
+          </Col>
+          <Col span={6}>
+            <p>23</p>
+            <p className="smile">Factors of attention</p>
+          </Col>
+          <Col span={6}>
+            <p>23</p>
+            <p className="smile">Factors of attention</p>
+          </Col>
         </Row>
       </div>
       <p>Diffusion Metafi is a set of combined reserve system based on Web3</p>

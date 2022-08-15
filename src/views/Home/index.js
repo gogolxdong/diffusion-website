@@ -6,7 +6,7 @@ import Square from './component/Square';
 const Home = () => {
     return <div className='home-wrap'>
       <FirstScreen />
-      <Square />
+      {/* <Square /> */}
     </div>
 }
 export default Home;

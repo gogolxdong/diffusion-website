@@ -1,1 +1,14 @@
 @import 'antd/dist/antd.css';
+
+html,body {
+  background-color: #000;
+}
+
+/* reset antd style */
+.ant-layout {
+  background-color: #000;
+}
+.ant-layout-footer {
+  background: none;
+  padding: 0;
+}
