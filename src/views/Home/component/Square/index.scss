@@ -1,7 +1,7 @@
 .square-wrap {
-  padding: 64px;
+  padding: $wrapPadding;
   .square {
-    padding: 64px;
+    padding: $wrapPadding;
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 39px;
@@ -40,6 +40,7 @@
         font-weight: normal;
         color: #FFFFFF;
         margin: 0px;
+        word-break: break-all;
         .word-line-wrap {
           position: relative;
           .word-line {
