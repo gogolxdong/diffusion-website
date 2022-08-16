@@ -12,10 +12,3 @@ html,body {
   background: none;
   padding: 0;
 }
-/* 
-@media (min-width: 1000px) {
-  @import './desktop.scss';
-}
-@media (max-width: 999px) {
-  @import './mobile.scss';
-} */
