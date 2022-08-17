@@ -59,13 +59,28 @@
       top: 0;
       bottom: 0;
       margin: auto;
+      z-index: 1;
       .participate-arrow {
         display: inline-block;
-        margin-left: 20px;
         width: 23px;
         height: 20px;
         background-image: url(../../../../assets/img/participate-arrow.png);
         background-size: 100% 100%;
+        animation: participateArrowMovement 2s linear infinite;
+        -webkit-animation: participateArrowMovement 2s linear infinite;
+        -moz-animation: participateArrowMovement 2s linear infinite;
+      }
+        
+      @keyframes participateArrowMovement {
+        from {
+          scale: 1;
+          margin-left: 20px;
+        }
+    
+        to {
+          scale: 1.2;
+          margin-left: 28px;
+        }
       }
     }
   }
@@ -78,5 +93,8 @@
     height: 80px !important;
     line-height: 80px !important;
     font-size: 20px !important;
+  }
+  .participate-footer {
+    font-size: 18px !important;
   }
 }
