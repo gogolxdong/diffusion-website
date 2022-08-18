@@ -7,6 +7,7 @@ import Participate from './component/Participate';
 import Exhibition from './component/Exhibition';
 import Metacosmic from './component/Metacosmic';
 import News from './component/News';
+import Partner from './component/Partner';
 
 const Home = () => {
     return <div className='home-wrap'>
@@ -17,6 +18,7 @@ const Home = () => {
       <Exhibition />
       <Metacosmic />
       <News />
+      <Partner />
     </div>
 }
 export default Home;
