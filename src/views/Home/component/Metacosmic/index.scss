@@ -81,6 +81,8 @@
         font-weight: normal;
         color: #FFFFFF;
         line-height: 46px;
+        position: relative;
+        z-index: 1;
       }
       .metacosmic-card-arrow {
         margin-top: 20px;
@@ -89,10 +91,10 @@
       }
       .metacosmic-card-img {
         position: absolute;
-        bottom: 0px;
-        right: 0px;
-        width: 150px;
-        height: 130px;
+        bottom: -60px;
+        right: -60px;
+        // width: 150px;
+        // height: 130px;
       }
     }
   }
@@ -102,17 +104,18 @@
     height: 60%;
     position: absolute;
     right: 100px;
-    animation: centerEarthMovement 2s linear infinite;
-    -webkit-animation: centerEarthMovement 2s linear infinite;
-    -moz-animation: centerEarthMovement 2s linear infinite;
+    bottom: 80px;
+    animation: centerEarthMovement 3s ease-in-out infinite;
   }
   @keyframes centerEarthMovement {
-    from {
-      bottom: 100px;
+    0% {
+      transform: translateY(0px);
     }
-
-    to {
-      bottom: 90px;
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0px);
     }
   }
 }
@@ -130,12 +133,14 @@
     -moz-animation: centerEarthMovement 2s linear infinite;
   }
   @keyframes centerEarthMovement {
-    from {
-      bottom: -100px;
+    0% {
+      transform: translateY(0px);
     }
-
-    to {
-      bottom: -110px;
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0px);
     }
   }
 }

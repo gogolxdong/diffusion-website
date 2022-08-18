@@ -1,7 +1,8 @@
 .redHalo {
-  position: absolute;
+  position: fixed;
   height: 500px;
   width: 500px;
+  z-index: 1;
   background-color: #EC6EFF;
   border-radius: 50%;
   transform-origin: 100px;
@@ -11,9 +12,10 @@
   filter: blur(100px)
 }
 .blueHalo {
-  position: absolute;
+  position: fixed;
   height: 500px;
   width: 500px;
+  z-index: 1;
   background-color: #3C00FF;
   border-radius: 50%;
   transform-origin: 100px;

@@ -15,8 +15,8 @@ function App() {
         <HeaderComponent />
       </Header>
       <Content>
-        <Home />
         <Halo />
+        <Home />
       </Content>
       <Footer>
         <FooterComponet />
