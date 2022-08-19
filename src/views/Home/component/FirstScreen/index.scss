@@ -3,28 +3,164 @@
   height: calc(100vh - 64px);
   overflow: hidden;
   position: relative;
-  .city-bg {
+  .first-screen-wrap-img {
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 20;
-    background-image: url(../../../../assets/img/cityBg.png);
-    background-size: 100%;
   }
-
-  .city-bg img {
+  .city-wrap {
     width: 100%;
-
-    &:first-child {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    .darkCity {
+      width: 100%;
+      height: 100%;
       position: absolute;
       bottom: 0px;
       left: 0px;
     }
-
-    &:nth-child(2) {
+    .brightCity {
+      width: 100%;
+      height: 100%;
       animation: flashLight 3s infinite;
     }
+  }
+  .city-img-wrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    .rocket {
+      width: 100px;
+      position: absolute;
+      top: 60px;
+      left: 25%;
+      animation: verticalFloat 2s linear infinite;
+      -webkit-animation: verticalFloat 2s linear infinite;
+      -moz-animation: verticalFloat 2s linear infinite;
+    }
+    .giantLogo {
+      width: 100px;
+      position: absolute;
+      top: 60px;
+      right: 10%;
+      animation: verticalFloat 2s linear infinite;
+      -webkit-animation: verticalFloat 2s linear infinite;
+      -moz-animation: verticalFloat 2s linear infinite;
+    }
+  }
+  .universe-wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    .rocketSpacecraft {
+      width: 20%;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+    .land {
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
+    .man {
+      width: 18%;
+      position: absolute;
+      bottom: 20px;
+      left: 41%;
+    }
+  }
+  .universe-img-wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    img {
+      position: absolute;
+      animation: verticalFloat 2s linear infinite;
+      -webkit-animation: verticalFloat 2s linear infinite;
+      -moz-animation: verticalFloat 2s linear infinite;
+    }
+    .airship1 {
+      width: 280px;
+      right: 0px;
+      bottom: 0px;
+    }
+    .airship2 {
+      width: 100px;
+      right: 40%;
+      top: 40%;
+    }
+    .airship3 {
+      width: 280px;
+      left: 0px;
+      bottom: 0px;
+    }
+    .planet1 {
+      width: 125px;
+      right: 30%;
+      top: 20px;
+    }
+    .planet2 {
+      width: 170px;
+      right: 30%;
+      top: 40%;
+    }
+    .planet3 {
+      width: 165px;
+      right:20px;
+      top: 20%;
+    }
+    .planet4 {
+      width: 180px;
+      left: 20%;
+      top: 40px;
+    }
+    .planet5 {
+      width: 98px;
+      left: 30%;
+      top: 40%;
+    }
+    .planet6 {
+      width: 132px;
+      left: 140px;
+      bottom: 150px;
+    }
+    .planet7 {
+      width: 395px;
+      left: 40%;
+      top: 10%;
+    }
+    .trajectory1 {
+      right: 20px;
+      top: 0;
+    }
+    .trajectory2 {
+      left: 0px;
+      bottom: 80px;
+    }
+  }
+}
+@keyframes verticalFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(0px);
   }
 }
 
