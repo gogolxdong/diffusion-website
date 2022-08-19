@@ -14,17 +14,121 @@
   }
   .participate-list {
     width: 100%;
+    margin: 40px 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     .list-item {
-      margin: 40px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       .item-img-wrap {
-        width: 220px;
-        height: 220px;
-        .item-img {
+        width: 170px;
+        height: 200px;
+        margin: 20px 0;
+        background-image: url(../../../../assets/img/rectangle-wrap.png);
+        background-size: 100% 100%;
+        cursor: pointer;
+        position: relative;
+        img {
           width: 100%;
           height: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        .pen {
+          animation: penFloat 2s linear infinite;
+          -webkit-animation: penFloat 2s linear infinite;
+          -moz-animation: penFloat 2s linear infinite;
+        }
+        .coloredStars {
+          animation: starFloat 2s linear infinite;
+          -webkit-animation: starFloat 2s linear infinite;
+          -moz-animation: starFloat 2s linear infinite;
+        }
+        .phone {
+          animation: phoneFloat 2s linear infinite;
+          -webkit-animation: phoneFloat 2s linear infinite;
+          -moz-animation: phoneFloat 2s linear infinite;
+        }
+        .circilar {
+          animation: circilarFloat 2s linear infinite;
+          -webkit-animation: circilarFloat 2s linear infinite;
+          -moz-animation: circilarFloat 2s linear infinite;
+        }
+        .seal {
+          animation: sealFloat 2s linear infinite;
+          -webkit-animation: sealFloat 2s linear infinite;
+          -moz-animation: sealFloat 2s linear infinite;
+        }
+        @keyframes starFloat {
+          0% {
+            transform: translateY(0px);
+          }
+          50% {
+              transform: translateY(6px);
+          }
+          100% {
+              transform: translateY(0px);
+          }
+        }
+        @keyframes phoneFloat {
+          0% {
+            transform: translateY(0px);
+          }
+          50% {
+              transform: translateY(6px);
+          }
+          100% {
+              transform: translateY(0px);
+          }
+        }
+        @keyframes circilarFloat {
+          0% {
+            transform: translateY(0px);
+          }
+          50% {
+              transform: translateY(-6px);
+          }
+          100% {
+              transform: translateY(0px);
+          }
+        }
+        @keyframes penFloat {
+          0% {
+
+            transform: translateX(0) translateY(0)
+            
+            }
+            
+            50% {
+              transform: translateX(6px) translateY(6px)
+            }
+            
+            100% {
+            transform: translateX(12px) translateY(-6px)
+            }
+        }
+        @keyframes sealFloat {
+          0% {
+
+            transform: translateX(0) translateZ(0) scale(1)
+            
+            }
+            
+            50% {
+              transform: translateX(6px) translateZ(6px) scale(0.8)
+            }
+            
+            100% {
+            transform: translateX(0px) translateZ(0px) scale(1)
+            }
+        }
+      }
+      .item-img-wrap:hover {
+        .pen, .coloredStars, .phone, .circilar, .seal{
+          animation-play-state: paused;
         }
       }
       .item-text {
