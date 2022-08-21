@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import anime from 'animejs';
 import  cityBg from '@/assets/img/cityBg.png'
 import  cloudBg from '@/assets/img/cloudBg.png'
 import brightCity from '@/assets/img/brightCity.png'
@@ -54,12 +55,34 @@ const FirstScreen = () => {
       if (!hasScroll) return
       const cloudBg = document.querySelector('.cloudBg')
       const cityBg = document.querySelector('.cityBg')
-      const city = document.querySelector('.city-wrap')
-      const cityImg = document.querySelector('.city-img-wrap')
-      // const city = document.querySelector('.city-wrap')
-      // const cityImg = document.querySelector('.city-img-wrap')
+      const firstScreen = document.querySelector('.first-screen-wrap')
       cloudBg.style.display = 'block'
       cityBg.style.display = 'none'
+      const height = firstScreen.offsetHeight
+      anime({
+        targets: '.city-wrap',
+        translateY: height,
+        duration: 5000,
+        easing: 'easeInOutExpo'
+      });
+      anime({
+        targets: '.city-img-wrap',
+        translateY: -height,
+        duration: 5000,
+        easing: 'easeInOutExpo'
+      });
+      anime({
+        targets: '.universe-wrap',
+        translateY: -height,
+        duration: 5000,
+        easing: 'easeInOutExpo'
+      });
+      anime({
+        targets: '.universe-img-wrap',
+        translateY: height,
+        duration: 5000,
+        easing: 'easeInOutExpo'
+      });
     }
 
     return <div className='first-screen-wrap'>
@@ -73,12 +96,12 @@ const FirstScreen = () => {
           <img src={rocket} className='rocket' />
           <img src={giantLogo} className='giantLogo' />
         </div>
-        <div className='universe-wrap' style={{ display: 'none' }}>
+        <div className='universe-wrap'>
           <img src={rocketSpacecraft} className='rocketSpacecraft' />
           <img src={land} className='land' />
           <img src={man} className='man' />
         </div>
-        <div className='universe-img-wrap' style={{ display: 'none' }}>
+        <div className='universe-img-wrap'>
           <img src={airship1} className='airship1' />
           <img src={airship2} className='airship2' />
           <img src={airship3} className='airship3' />

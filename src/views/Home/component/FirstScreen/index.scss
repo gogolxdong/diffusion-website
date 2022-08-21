@@ -58,7 +58,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0px;
+    bottom: -100%;
     left: 0px;
     .rocketSpacecraft {
       width: 20%;
@@ -83,7 +83,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0px;
+    top: -100%;
     left: 0px;
     overflow: hidden;
     img {
@@ -175,5 +175,87 @@
 
   100% {
     opacity: 1;
+  }
+}
+
+
+@media (min-width: 992px) {
+}
+@media (max-width: 991px) {
+  .first-screen-wrap {
+    .universe-wrap {
+      .rocketSpacecraft {
+        width: 20%;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+      .land {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+      .man {
+        width: 40%;
+        position: absolute;
+        bottom: 10px;
+        left: 30%;
+      }
+    }
+    .universe-img-wrap {
+      .airship1 {
+        width: 140px;
+        right: 0px;
+        bottom: 0px;
+      }
+      .airship2 {
+        width: 100px;
+        right: 20%;
+        top: 40%;
+      }
+      .airship3 {
+        width: 140px;
+        left: 0px;
+        bottom: 0px;
+      }
+      .planet1 {
+        width: 100px;
+        right: 20px;
+        top: 20px;
+      }
+      .planet2 {
+        width: 150px;
+        right: -70px;
+        top: 40%;
+      }
+      .planet3 {
+        display: none;
+      }
+      .planet4 {
+        width: 120px;
+        left: -60px;
+        top: 40px;
+      }
+      .planet5 {
+        width: 100px;
+        left: 0;
+        top: 40%;
+      }
+      .planet6 {
+        display: none;
+      }
+      .planet7 {
+        width: 300px;
+        left: calc(50% - 150px);
+        top: 10%;
+      }
+      .trajectory1 {
+        display: none;
+      }
+      .trajectory2 {
+        display: none;
+      }
+    }
   }
 }

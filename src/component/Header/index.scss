@@ -15,3 +15,17 @@
     height: 16px;
   }
 }
+
+@media (min-width: 992px) {
+}
+@media (max-width: 991px) {
+  .ant-layout-header {
+    padding: 0 10px !important;
+  }
+  .right_nav {
+    text-align: right;
+    span {
+      margin-right: 10px !important;
+    }
+  }
+}
