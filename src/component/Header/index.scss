@@ -1,11 +1,15 @@
-.left_nav {
+.header-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.left-nav {
   text-align: left;
   img {
     height: 40px;
   }
 }
 
-.right_nav {
+.right-nav {
   text-align: right;
   span {
     margin-right: 58px;
@@ -21,8 +25,9 @@
 @media (max-width: 991px) {
   .ant-layout-header {
     padding: 0 10px !important;
+    font-size: 12px;
   }
-  .right_nav {
+  .right-nav {
     text-align: right;
     span {
       margin-right: 10px !important;

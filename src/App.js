@@ -11,7 +11,7 @@ const { Header, Footer, Sider, Content } = Layout;
 function App() {
   return (
     <Layout>
-      <Header className='top_nav'>
+      <Header className='top-nav'>
         <HeaderComponent />
       </Header>
       <Content>

@@ -1,5 +1,4 @@
 
-import mountain from '@/assets/img/mountain.png'
 import centerEarth from '@/assets/img/centerEarth.png'
 import advantageArrow from '@/assets/img/advantageArrow.png'
 import goldenStar from '@/assets/img/goldenStar.png'
@@ -19,7 +18,7 @@ const Metacosmic = () => {
             <div className='online-tag'>Online</div>
           </div>
         </div>
-        <img src={mountain} className='mountain' />
+        <div className='mountain'></div>
         <img src={centerEarth} className='centerEarth' />
       </div>
       <div className='metacosmic-card-list'>

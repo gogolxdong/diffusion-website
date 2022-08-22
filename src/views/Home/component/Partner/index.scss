@@ -38,3 +38,21 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  .partner-wrap .partner-item {
+    .partner-left-text {
+      font-size: 28px;
+      height: 57px;
+      line-height: 57px;
+    }
+    img {
+      width: 116px;
+      height: 27px;
+    }
+    img:first-child {
+      width: 116px;
+      height: 27px;
+    }
+  }
+}

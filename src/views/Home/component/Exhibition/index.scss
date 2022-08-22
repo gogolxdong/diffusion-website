@@ -1,10 +1,12 @@
 $contentHeight: 400px;
 $contentWidth: 800px;
+$contentHeightMobile: 300px;
+
 
 .exhibition-wrap {
   width: 100%;
   height: $contentHeight;
-  margin: 80px 0;
+  margin: 120px 0;
   position: relative;
   .exhibition-wrap-img {
     width: 100%;
@@ -26,7 +28,6 @@ $contentWidth: 800px;
     .carousel-item {
       width: 100%;
       height: $contentHeight;
-      line-height: $contentHeight;
       text-align: center;
       background-color: aquamarine;
     }
@@ -43,6 +44,8 @@ $contentWidth: 800px;
       position: absolute;
       left: -8px;
       bottom: -8px;
+      background-image: url(../../../../assets/img/carousel-wrap-img.png);
+      background-size: 100% 100%;
     }
     .arc-star-img {
       width: calc(100% + 200px);
@@ -50,6 +53,27 @@ $contentWidth: 800px;
       position: absolute;
       left: -100px;
       bottom: -40px;
+    }
+  }
+}
+@media (min-width: 992px) {
+
+}
+@media (max-width: 991px) {
+  .exhibition-wrap {
+    height: $contentHeightMobile;
+    margin: 100px 0;
+    .carousel-wrap {
+      width: 100%;
+      max-width: 100%;
+      height: $contentHeightMobile;
+      .carousel-item {
+        height: $contentHeightMobile;
+      }
+      .carousel-wrap-img {
+        background-image: url(../../../../assets/img/carousel-wrap-img-mobile.png);
+        background-size: 100% 100%;
+      }
     }
   }
 }
