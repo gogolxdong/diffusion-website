@@ -1,5 +1,6 @@
 .metacosmic-wrap {
-  padding: $wrapPadding;
+  max-width: 1200px;
+  margin: 40px auto;
   .metacosmic-main {
     width: 100%;
     height: 400px;
@@ -16,7 +17,7 @@
       font-weight: 500;
       font-style: italic;
       float: left;
-      font-size: 2rem;
+      font-size: 28px;
       background: linear-gradient(270deg, #FF0EFF 60%, #0032FF 100%);
       -webkit-background-clip: text;
       color: transparent;
@@ -59,9 +60,12 @@
     }
     .mountain {
       width: 100%;
+      height: 100%;
       position: absolute;
       bottom: 0;
       left: 0;
+      background-image: url(../../../../assets/img/mountain.png);
+      background-size: 100% 100%;
     }
   }
   .metacosmic-card-list {
@@ -72,10 +76,11 @@
       padding: 40px 20px;
       position: relative;
       overflow: hidden;
-      background: rgba(216,216,216,0.1);
+      background-color: rgba(216,216,216,0.1);
       border-radius: 24px;
       border: 1px solid rgba(255,255,255,0.32);
       .metacosmic-card-text {
+        width: 80%;
         font-size: 28px;
         font-family: HelveticaNeue-BoldItalic, HelveticaNeue;
         font-weight: normal;
@@ -93,6 +98,7 @@
         position: absolute;
         bottom: -60px;
         right: -60px;
+        z-index: 1;
         // width: 150px;
         // height: 130px;
       }
@@ -120,9 +126,14 @@
   }
 }
 @media (max-width: 991px) {
-  .metacosmic-main {
-    background-image: url(../../../../assets/img/metacosmic-mobile-bg.png) !important;
+  .metacosmic-wrap {
+    padding: $wrapPadding;
+    .metacosmic-main {
+      height: 300px;
+      background-image: url(../../../../assets/img/metacosmic-mobile-bg.png);
+    }
   }
+
   .centerEarth {
     height: 200px;
     position: absolute;
@@ -139,6 +150,41 @@
     }
     100% {
         transform: translateX(0px) translateY(0px) translateZ(0px);
+    }
+  }
+  .metacosmic-wrap {
+    .metacosmic-main {
+      .mountain {
+        background-image: url(../../../../assets/img/mountain-mobile.png);
+      }
+      .metacosmic-title {
+        font-size: 16px;
+      }
+      .metacosmic-content {
+        .cont-text {
+          font-size: 24px;
+          line-height: 29px;
+        }
+        .online-day-wrap .online-day {
+          font-size: 36px;
+          line-height: 44px;
+        }
+      }
+    }
+    .metacosmic-card-list .metacosmic-card {
+      height: 171px;
+      background-color: rgba(216,216,216,0.1);
+      border-radius: 18px;
+      .metacosmic-card-text {
+        width: 80%;
+        font-size: 21px;
+        line-height: 35px;
+      }
+      .metacosmic-card-img {
+        scale: 0.8;
+        bottom: -60px;
+        right: -60px;
+      }
     }
   }
 }

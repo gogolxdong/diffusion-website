@@ -1,5 +1,6 @@
 .footer-wrap {
-  padding: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
   .content-left {
     .logo {
       height: 45px;
@@ -41,5 +42,10 @@
         color: #6c6767;
       }
     }
+  }
+}
+@media (max-width: 991px) {
+  .footer-wrap {
+    padding: $wrapPadding;
   }
 }

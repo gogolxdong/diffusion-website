@@ -3,12 +3,12 @@ import language from '@/assets/img/language.png'
 import './index.scss'
 import { Col, Row } from 'antd';
 export const Header = () => {
-    return <div>
+    return <div className="header-wrap">
       <Row>
-          <Col span={12} className="left_nav">
+          <Col span={12} className="left-nav">
             <img src={logo} />
           </Col>
-          <Col span={12} className="right_nav">
+          <Col span={12} className="right-nav">
             <span>Document</span>
             <span>Dapp</span>
             <img src={language} />

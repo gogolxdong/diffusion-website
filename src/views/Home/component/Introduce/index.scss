@@ -1,5 +1,6 @@
 .introduce-wrap {
-  padding: $wrapPadding;
+  max-width: 1200px;
+  margin: 40px auto;
   .list-item {
     padding: 40px 0;
     display: flex;
@@ -30,6 +31,9 @@
       font-weight: 400;
       color: #FFFFFF;
       line-height: 32px;
+      > p {
+        margin-bottom: 0px;
+      }
     }
     .item-img {
       width: 340px;
@@ -44,6 +48,23 @@
   }
 }
 @media (max-width: 991px) {
+  .introduce-wrap {
+    padding: 0px $wrapPadding;
+    margin: 0px;
+    .list-item {
+      padding: 20px 0;
+      .item-title {
+        font-size: 27px;
+        font-family: HelveticaNeue-BoldItalic, HelveticaNeue;
+        font-weight: normal;
+        color: #FFFFFF;
+      }
+      .item-des {
+        font-size: 12px;
+        line-height: 24px
+      }
+    }
+  }
   .item-text {
     width: 100%;
     order: 2;

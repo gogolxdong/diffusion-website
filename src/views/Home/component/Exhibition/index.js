@@ -24,7 +24,7 @@ const Exhibition = () => {
           <img className='carousel-item' src={reward} />
         </Carousel>
         <img src={earth} className="earth"/>
-        <img src={carouselWrapImg} className="carousel-wrap-img"/>
+        <div className="carousel-wrap-img"></div>
         <img src={arcStar} className="arc-star-img"/>
       </div>
     </div>
