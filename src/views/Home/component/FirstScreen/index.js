@@ -44,7 +44,7 @@ const FirstScreen = () => {
     const cityBg = document.querySelector(".cityBg");
     const screenW = cityBg.clientWidth;
     const screenH = cityBg.offsetHeight;
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 30; i++) {
       const span = document.createElement("span");
       span.classList.add("star")
       cityBg.appendChild(span);
@@ -52,9 +52,9 @@ const FirstScreen = () => {
       const y = parseInt(Math.random() * screenH);
       span.style.left = x + "px";
       span.style.top = y + "px";
-      const scale = Math.random() * 1.5;
+      const scale = Math.random() * 2;
       span.style.transform = "scale(" + scale + ", " + scale + ")";
-      const rate = Math.random() * 1.5;
+      const rate = Math.random() * 2;
       span.style.animationDelay = rate + "s";
     }
   };
