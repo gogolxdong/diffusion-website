@@ -35,7 +35,7 @@ const Introduce = () => {
       <CSSTransition
         in={!!inView1}
         timeout={ 1000 }
-        classNames='show'
+        classNames='show1'
       >
         <div className='item-text'>
           <div className='item-title'>Neo-keynesianism<span className='colour-span'></span></div>
@@ -48,7 +48,7 @@ const Introduce = () => {
       <CSSTransition
         in={!!inView1}
         timeout={ 1000 }
-        classNames='show1'
+        classNames='show'
       >
         <img className='item-img' src={img1} />
       </CSSTransition>
@@ -57,7 +57,7 @@ const Introduce = () => {
       <CSSTransition
         in={!!inView2}
         timeout={ 1000 }
-        classNames='show'
+        classNames='show1'
       >
         <div className='item-text'>
           <div className='item-title'>DSGE<span className='colour-span'></span></div>
@@ -79,7 +79,7 @@ const Introduce = () => {
       <CSSTransition
           in={!!inView3}
           timeout={ 1000 }
-          classNames='show'
+          classNames='show1'
         >
         <div className='item-text'>
           <div className='item-title'>DFS<span className='colour-span'></span></div>
@@ -92,7 +92,7 @@ const Introduce = () => {
       <CSSTransition
         in={!!inView3}
         timeout={ 1000 }
-        classNames='show1'
+        classNames='show'
       >
         <img className='item-img' src={img3} />
       </CSSTransition>
@@ -101,7 +101,7 @@ const Introduce = () => {
       <CSSTransition
           in={!!inView4}
           timeout={ 1000 }
-          classNames='show'
+          classNames='show1'
         >
         <div className='item-text'>
           <div className='item-title'>Spos<span className='colour-span'></span></div>
@@ -123,7 +123,7 @@ const Introduce = () => {
       <CSSTransition
         in={!!inView5}
         timeout={ 1000 }
-        classNames='show'
+        classNames='show1'
       >
         <div className='item-text'>
           <div className='item-title'>METAFI<span className='colour-span'></span></div>
@@ -135,7 +135,7 @@ const Introduce = () => {
       <CSSTransition
         in={!!inView5}
         timeout={ 1000 }
-        classNames='show1'
+        classNames='show'
       >
         <img className='item-img' src={img5} />
       </CSSTransition>
