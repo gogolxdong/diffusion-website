@@ -9,8 +9,8 @@ export const Header = () => {
             <img src={logo} />
           </Col>
           <Col span={12} className="right-nav">
-            <span>Document</span>
-            <span>Dapp</span>
+            <a>Document</a>
+            <a href="https://test.diffusiondao.org/" target="_blank">Dapp</a>
             <img src={language} />
           </Col>
       </Row>

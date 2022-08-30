@@ -11,8 +11,10 @@
 
 .right-nav {
   text-align: right;
-  span {
+  a {
     margin-right: 58px;
+    color: #fff;
+    cursor: pointer;
   }
   img {
     width: 16px;

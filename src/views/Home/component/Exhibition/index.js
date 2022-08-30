@@ -3,7 +3,6 @@ import { Carousel } from 'antd';
 import './index.scss'
 import gridImage from '@/assets/img/exhibition-wrap-bg.png'
 import earth from '@/assets/img/earth.png'
-import carouselWrapImg from '@/assets/img/carousel-wrap-img.png'
 import arcStar from '@/assets/img/arc-star.png'
 import dashboard from '@/assets/img/exhibition/dashboard.png'
 import bond from '@/assets/img/exhibition/bond.png'

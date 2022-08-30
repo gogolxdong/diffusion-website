@@ -10,17 +10,32 @@ import img5 from '@/assets/img/person-five.png'
 
 
 const Introduce = () => {
-  const { observe, inView } = useInView({
+  const { observe: observe1 , inView:inView1 } = useInView({
     unobserveOnEnter: true,
     rootMargin: "50px",
   });
-  return <div className='introduce-wrap' ref={observe}>
-    <div className='list-item'>
+  const { observe: observe2 , inView:inView2 } = useInView({
+    unobserveOnEnter: true,
+    rootMargin: "50px",
+  });
+  const { observe: observe3 , inView:inView3 } = useInView({
+    unobserveOnEnter: true,
+    rootMargin: "50px",
+  });
+  const { observe: observe4 , inView:inView4 } = useInView({
+    unobserveOnEnter: true,
+    rootMargin: "50px",
+  });
+  const { observe: observe5 , inView:inView5 } = useInView({
+    unobserveOnEnter: true,
+    rootMargin: "50px",
+  });
+  return <div className='introduce-wrap'>
+    <div className='list-item' ref={observe1}>
       <CSSTransition
-        in={!!inView}
+        in={!!inView1}
         timeout={ 1000 }
         classNames='show'
-        appear={true}
       >
         <div className='item-text'>
           <div className='item-title'>Neo-keynesianism<span className='colour-span'></span></div>
@@ -31,20 +46,18 @@ const Introduce = () => {
         </div>
       </CSSTransition>
       <CSSTransition
-        in={!!inView}
+        in={!!inView1}
         timeout={ 1000 }
-        classNames='show'
-        appear={true}
+        classNames='show1'
       >
         <img className='item-img' src={img1} />
       </CSSTransition>
     </div>
-    <div className='list-item'>
+    <div className='list-item' ref={observe2}>
       <CSSTransition
-        in={!!inView}
+        in={!!inView2}
         timeout={ 1000 }
         classNames='show'
-        appear={true}
       >
         <div className='item-text'>
           <div className='item-title'>DSGE<span className='colour-span'></span></div>
@@ -55,20 +68,18 @@ const Introduce = () => {
         </div>
       </CSSTransition>
       <CSSTransition
-        in={!!inView}
+        in={!!inView2}
         timeout={ 1000 }
-        classNames='show'
-        appear={true}
+        classNames='show1'
       >
         <img className='item-img' src={img2} />
       </CSSTransition>
     </div>
-    <div className='list-item'>
+    <div className='list-item' ref={observe3}>
       <CSSTransition
-          in={!!inView}
+          in={!!inView3}
           timeout={ 1000 }
           classNames='show'
-          appear={true}
         >
         <div className='item-text'>
           <div className='item-title'>DFS<span className='colour-span'></span></div>
@@ -79,20 +90,18 @@ const Introduce = () => {
         </div>
       </CSSTransition>
       <CSSTransition
-        in={!!inView}
+        in={!!inView3}
         timeout={ 1000 }
-        classNames='show'
-        appear={true}
+        classNames='show1'
       >
         <img className='item-img' src={img3} />
       </CSSTransition>
     </div>
-    <div className='list-item'>
+    <div className='list-item' ref={observe4}>
       <CSSTransition
-          in={!!inView}
+          in={!!inView4}
           timeout={ 1000 }
           classNames='show'
-          appear={true}
         >
         <div className='item-text'>
           <div className='item-title'>Spos<span className='colour-span'></span></div>
@@ -103,20 +112,18 @@ const Introduce = () => {
         </div>
       </CSSTransition>
       <CSSTransition
-        in={!!inView}
+        in={!!inView4}
         timeout={ 1000 }
-        classNames='show'
-        appear={true}
+        classNames='show1'
       >
         <img className='item-img' src={img4} />
       </CSSTransition>
     </div>
-    <div className='list-item'>
+    <div className='list-item' ref={observe5}>
       <CSSTransition
-        in={!!inView}
+        in={!!inView5}
         timeout={ 1000 }
         classNames='show'
-        appear={true}
       >
         <div className='item-text'>
           <div className='item-title'>METAFI<span className='colour-span'></span></div>
@@ -126,10 +133,9 @@ const Introduce = () => {
         </div>
       </CSSTransition>
       <CSSTransition
-        in={!!inView}
+        in={!!inView5}
         timeout={ 1000 }
-        classNames='show'
-        appear={true}
+        classNames='show1'
       >
         <img className='item-img' src={img5} />
       </CSSTransition>
