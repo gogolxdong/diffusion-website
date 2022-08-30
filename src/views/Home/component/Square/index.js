@@ -1,5 +1,6 @@
 
 import { Col, Row } from 'antd';
+import AnimatedNumbers from "react-animated-numbers";
 import './index.scss'
 import truthVolcano from '@/assets/img/truthVolcano.png';
 import logo2 from '@/assets/img//logo2.png';
@@ -25,15 +26,36 @@ const Square = () => {
           <Col xs={24} sm={24} md={14} lg={12} xl={12}>
             <div className='square-data-wrap'>
               <div className="square-data-item alone-line">
-                <p>23</p>
+                <p>
+                  <AnimatedNumbers
+                    animateToNumber={23}
+                    configs={(number, index) => {
+                      return { mass: 1, tension: 230 * (index + 1), friction: 140 };
+                    }}
+                  />
+                </p>
                 <p className="square-data-des">Factors of attention</p>
               </div>
               <div className="square-data-item">
-                <p>23</p>
+                <p>
+                  <AnimatedNumbers
+                    animateToNumber={23}
+                    configs={(number, index) => {
+                      return { mass: 1, tension: 230 * (index + 1), friction: 140 };
+                    }}
+                  />
+                </p>
                 <p className="square-data-des">Diffusivity element</p>
               </div>
               <div className="square-data-item">
-                <p>64</p>
+                <p>
+                  <AnimatedNumbers
+                    animateToNumber={64}
+                    configs={(number, index) => {
+                      return { mass: 1, tension: 230 * (index + 1), friction: 140 };
+                    }}
+                  />
+                </p>
                 <p className="square-data-des">Call factor</p>
               </div>
             </div>
