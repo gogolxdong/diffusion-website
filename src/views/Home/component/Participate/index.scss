@@ -48,6 +48,11 @@
           -webkit-animation: starFloat 2s linear infinite;
           -moz-animation: starFloat 2s linear infinite;
         }
+        .goldCoins {
+          animation: bullionFloat 2s linear infinite;
+          -webkit-animation: bullionFloat 2s linear infinite;
+          -moz-animation: bullionFloat 2s linear infinite;
+        }
         .bullion {
           animation: bullionFloat 2s linear infinite;
           -webkit-animation: bullionFloat 2s linear infinite;
@@ -90,7 +95,17 @@
             transform: translateY(0px);
           }
         }
-        
+        @keyframes bullionFloat {
+          0% {
+            transform: translateY(0px);
+          }
+          50% {
+            transform: translateY(10px);
+          }
+          100% {
+            transform: translateY(0px);
+          }
+        }
         @keyframes phoneFloat {
           0% {
             transform: translateY(0px);

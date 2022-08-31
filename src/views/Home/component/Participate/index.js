@@ -10,7 +10,7 @@ import phone from '@/assets/img/phone.png'
 import circilar from '@/assets/img/circular.png'
 import seal from '@/assets/img/seal.png'
 import coloredStars from '@/assets/img/colored-stars.png'
-import { useEffect } from 'react';
+import goldCoins from '@/assets/img/gold-coins.png'
 
 const Participate = () => {
   const { observe: observe1 , inView:inView1 } = useInView({
@@ -99,6 +99,7 @@ const Participate = () => {
           <div className='item-img-wrap'>
             <img src={participate4} className="background-img bullion"/>
             <img src={coloredStars} className="coloredStars"/>
+            <img src={goldCoins} className="goldCoins"/>
           </div>
         </CSSTransition>
         <CSSTransition
