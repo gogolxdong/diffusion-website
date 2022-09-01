@@ -1,5 +1,6 @@
 import { CSSTransition } from 'react-transition-group'
 import { useInView } from "react-cool-inview";
+import { useTranslation } from 'react-i18next'
 import centerEarth from '@/assets/img/centerEarth.png'
 import advantageArrow from '@/assets/img/advantageArrow.png'
 import goldenStar from '@/assets/img/goldenStar.png'
@@ -9,6 +10,7 @@ import { Col, Row } from 'antd';
 import './index.scss'
 
 const Metacosmic = () => {
+  const { t } = useTranslation()
   const { observe: observe1 , inView:inView1 } = useInView({
     unobserveOnEnter: true,
     rootMargin: "50px",
@@ -27,14 +29,14 @@ const Metacosmic = () => {
   });
   return <div className='metacosmic-wrap' ref={observe1}>
     <div className='metacosmic-main'>
-      <div className='metacosmic-title'>Releases and product updates</div>
+      <div className='metacosmic-title'>{t('home.Metacosmic-tab')}</div>
       <div className='metacosmic-content'>
         <CSSTransition
           in={!!inView1}
           timeout={ 1000 }
           classNames='show'
         >
-          <div className='cont-text'> Metacosmic Financial Center</div>
+          <div className='cont-text'>{t('home.Metacosmic-title')}</div>
         </CSSTransition>
         <div className="online-day-wrap">
           <CSSTransition
@@ -71,7 +73,7 @@ const Metacosmic = () => {
             classNames='show'
           >
             <div className='metacosmic-card'>
-              <div className='metacosmic-card-text'>The golden kingdom of the stars</div>
+              <div className='metacosmic-card-text'>{t('home.Metacosmic-item1')}</div>
               <img className='metacosmic-card-arrow' src={advantageArrow} />
               <img className='metacosmic-card-img' src={goldenStar} />
             </div>
@@ -84,7 +86,7 @@ const Metacosmic = () => {
             classNames='show1'
           >
             <div className='metacosmic-card'>
-              <div className='metacosmic-card-text'>The green earth and the smiles of children</div>
+              <div className='metacosmic-card-text'>{t('home.Metacosmic-item2')}</div>
               <img className='metacosmic-card-arrow' src={advantageArrow} />
               <img className='metacosmic-card-img' src={greenChild} />
             </div>
@@ -97,7 +99,7 @@ const Metacosmic = () => {
             classNames='show2'
           >
             <div className='metacosmic-card' ref={observe4}>
-              <div className='metacosmic-card-text'>Selfish space</div>
+              <div className='metacosmic-card-text'>{t('home.Metacosmic-item3')}</div>
               <img className='metacosmic-card-arrow' src={advantageArrow} />
               <img className='metacosmic-card-img' src={selfishSpace} />
             </div>

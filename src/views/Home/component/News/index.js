@@ -2,10 +2,12 @@
 import { Col, Row } from 'antd';
 import { CSSTransition } from 'react-transition-group'
 import { useInView } from "react-cool-inview";
+import { useTranslation } from 'react-i18next'
 import newsImg from '@/assets/img/news-img.png'
 import './index.scss'
 
 const News = () => {
+  const { t } = useTranslation()
   const { observe , inView } = useInView({
     unobserveOnEnter: true,
     rootMargin: "50px",
@@ -41,8 +43,8 @@ const News = () => {
         classNames='show1'
       >
         <div className='line-wrap'>
-          <div className='line-left'>THE NEWS</div>
-          <div className='line-right'>MORE</div>
+          <div className='line-left'>{t('home.NEWS')}</div>
+          <div className='line-right'>{t('home.MORE')}</div>
         </div>
       </CSSTransition>
     </div>

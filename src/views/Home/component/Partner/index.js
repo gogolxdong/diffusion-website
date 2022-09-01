@@ -1,6 +1,7 @@
 
 import { CSSTransition } from 'react-transition-group'
 import { useInView } from "react-cool-inview";
+import { useTranslation } from 'react-i18next'
 import './index.scss'
 import samsung from '@/assets/img/samsung-log.png'
 import upbit from '@/assets/img/upbit-log.png'
@@ -8,6 +9,7 @@ import binance from '@/assets/img/binance-logo.png'
 
 
 const Home = () => {
+  const { t } = useTranslation()
   const { observe , inView } = useInView({
     unobserveOnEnter: true,
     rootMargin: "50px",
@@ -19,7 +21,7 @@ const Home = () => {
       classNames='show'
     >
       <div className='partner-item'>
-        <div className='partner-left-text'>Partner<div className='partner-left-text-line'></div></div>
+        <div className='partner-left-text'>{t('home.Partner')}<div className='partner-left-text-line'></div></div>
       </div>
     </CSSTransition>
     <CSSTransition

@@ -6,8 +6,11 @@ import AnimatedNumbers from "react-animated-numbers";
 import './index.scss'
 import truthVolcano from '@/assets/img/truthVolcano.png';
 import logo2 from '@/assets/img//logo2.png';
+import { useTranslation } from 'react-i18next'
+
 
 const Square = () => {
+  const { t } = useTranslation()
   const { observe , inView } = useInView({
     unobserveOnEnter: true,
     rootMargin: "50px",
@@ -23,9 +26,9 @@ const Square = () => {
             timeout={ 1000 }
             classNames='show'
           >
-            <p className="title">Next Generation Joint Reserve 
+            <p className="title">{t('home.square-title')} 
               <span className="word-line-wrap">
-                &nbsp;System
+                &nbsp;{t('home.System')}
                 <span className="word-line"></span>
               </span>
             </p>
@@ -35,7 +38,7 @@ const Square = () => {
               timeout={ 1000 }
               classNames='show1'
             >
-              <p className="description">Diffusion Metafi is a set of combined reserve system based on Web3</p>
+              <p className="description">{t('home.square-des')}</p>
             </CSSTransition>
           </div>
         </Col>
@@ -52,7 +55,7 @@ const Square = () => {
                   }}
                 />
               </p>
-              <p className="square-data-des">Factors of attention</p>
+              <p className="square-data-des">{t('home.square-item1')}</p>
             </div>
             <div className="square-data-item">
               <p>
@@ -63,7 +66,7 @@ const Square = () => {
                   }}
                 />
               </p>
-              <p className="square-data-des">Diffusivity element</p>
+              <p className="square-data-des">{t('home.square-item2')}</p>
             </div>
             <div className="square-data-item">
               <p>
@@ -74,7 +77,7 @@ const Square = () => {
                   }}
                 />
               </p>
-              <p className="square-data-des">Call factor</p>
+              <p className="square-data-des">{t('home.square-item3')}</p>
             </div>
           </div>
           </Col>

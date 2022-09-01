@@ -1,5 +1,6 @@
 import { CSSTransition } from 'react-transition-group'
 import { useInView } from "react-cool-inview";
+import { useTranslation } from 'react-i18next'
 import { Col, Row } from 'antd';
 import logo from '@/assets/img/logo.png'
 import feiJiLogo from '@/assets/img/feiji-logo.png'
@@ -10,6 +11,7 @@ import maoLogo from '@/assets/img/mao-logo.png'
 import "./index.scss";
 
 export const Footer = () => {
+  const { t } = useTranslation()
   const { observe , inView } = useInView({
     unobserveOnEnter: true,
     rootMargin: "50px",
@@ -26,11 +28,11 @@ export const Footer = () => {
             <div className="content-left">
               <img src={logo} className="logo"/>
               <div className='logo-list'>
-                <a><img src={feiJiLogo} /></a>
-                <a><img src={maoLogo} /></a>
-                <a><img src={larkLogo} /></a>
-                <a><img src={mLogo} /></a>
-                <a><img src={githubLogo} /></a>
+                <a href="https://t.me/DiffusionDAO" target="blank"><img src={feiJiLogo} /></a>
+                <a href="https://discord.com/invite/bhv6ysfNuq" target="blank"><img src={maoLogo} /></a>
+                <a href="https://twitter.com/DFSDIFFUSION" target="blank"><img src={larkLogo} /></a>
+                <a href="https://medium.com/@getdiffusion" target="blank"><img src={mLogo} /></a>
+                <a href="https://github.com/DiffusionDAO" target="blank"><img src={githubLogo} /></a>
               </div>
             </div>
           </CSSTransition>
@@ -43,10 +45,10 @@ export const Footer = () => {
               classNames='show1'
             >
               <div className="list-item">
-                <div>Products</div>
-                <div>UNIVERSE</div>
-                <div>BONDS</div>
-                <div>STAKING</div>
+                <div>{t('footer.Products')}</div>
+                <div>{t('footer.Universe')}</div>
+                <div>{t('footer.Bonds')}</div>
+                <div>{t('footer.Staking')}</div>
               </div>
             </CSSTransition>
             <CSSTransition
@@ -55,9 +57,9 @@ export const Footer = () => {
               classNames='show2'
             >
               <div className="list-item">
-                <div>Learn</div>
-                <div>DOCUMENTATION</div>
-                <div>BLOG</div>
+                <div>{t('footer.Learn')}</div>
+                <div>{t('footer.Documentation')}</div>
+                <div>{t('footer.Blog')}</div>
               </div>
             </CSSTransition>
             <CSSTransition
@@ -66,7 +68,7 @@ export const Footer = () => {
               classNames='show3'
             >
               <div className="list-item">
-                <div>Contact us</div>
+                <div>{t('footer.Contact')}</div>
                 <div>GetDiffusion@protonmail.com</div>
               </div>
             </CSSTransition>
