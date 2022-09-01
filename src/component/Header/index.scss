@@ -4,8 +4,12 @@
 }
 .left-nav {
   text-align: left;
-  img {
+  .logo-wrap {
+    margin-top: 10px;
     height: 40px;
+    background-image: url(../../assets/img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 
@@ -26,11 +30,23 @@
 }
 @media (max-width: 991px) {
   .ant-layout-header {
-    padding: 0 10px !important;
+    padding: 0 20px !important;
     font-size: 12px;
+  }
+  .left-nav {
+    .logo-wrap {
+      margin-top: 16px;
+      height: 28px;
+      background-image: url(../../assets/img/logo-mobile.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
   .right-nav {
     text-align: right;
+    a {
+      margin-right: 30px;
+    }
     span {
       margin-right: 10px !important;
     }

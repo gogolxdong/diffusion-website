@@ -1,4 +1,3 @@
-import logo from '@/assets/img/logo.png'
 import language from '@/assets/img/language.png'
 import './index.scss'
 import { Col, Row, Dropdown } from 'antd';
@@ -10,7 +9,7 @@ export const Header = () => {
   return <div className="header-wrap">
     <Row>
         <Col span={12} className="left-nav">
-          <img src={logo} />
+          <div class="logo-wrap"></div>
         </Col>
         <Col span={12} className="right-nav">
           <a>{t('header.Document')}</a>

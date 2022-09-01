@@ -10,6 +10,7 @@ import pen from '@/assets/img/pen.png'
 import phone from '@/assets/img/phone.png'
 import circilar from '@/assets/img/circular.png'
 import seal from '@/assets/img/seal.png'
+import imprint from '@/assets/img/imprint.png'
 import coloredStars from '@/assets/img/colored-stars.png'
 import goldCoins from '@/assets/img/gold-coins.png'
 
@@ -82,6 +83,7 @@ const Participate = () => {
           <div className='item-img-wrap'>
             <img src={participate3} className="background-img"/>
             <img src={seal} className="seal"/>
+            <img src={imprint} className="imprint"/>
           </div>
         </CSSTransition>
         <CSSTransition

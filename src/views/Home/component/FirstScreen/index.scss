@@ -55,10 +55,12 @@
       position: absolute;
       bottom: 0px;
       left: 0px;
+      object-fit: cover;
     }
     .brightCity {
       width: 100%;
       height: 100%;
+      object-fit: cover;
       animation: flashLight 3s infinite;
     }
   }
