@@ -9,7 +9,7 @@ export const Header = () => {
   return <div className="header-wrap">
     <Row>
         <Col span={12} className="left-nav">
-          <div class="logo-wrap"></div>
+          <div className="logo-wrap"></div>
         </Col>
         <Col span={12} className="right-nav">
           <a>{t('header.Document')}</a>

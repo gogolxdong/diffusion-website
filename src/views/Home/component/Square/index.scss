@@ -75,7 +75,7 @@
         align-items: flex-start;
         flex-direction: column;
         justify-content: center;
-        p {
+        >div {
           font-size: 48px;
           font-family: HelveticaNeue-BoldItalic, HelveticaNeue;
           font-weight: bold;
@@ -84,7 +84,7 @@
           letter-spacing: 1px;
           margin-bottom: 11px;
         }
-        p.square-data-des {
+        div.square-data-des {
           font-size: 14px;
           font-family: PingFangSC-Medium, PingFang SC;
           color: #bbb7b7;
@@ -132,11 +132,11 @@
       .square-data-wrap {
         .square-data-item {
           height: 100px;
-          p {
+          >div {
             font-size: 36px;
             line-height: 40px;
           }
-          p.square-data-des {
+          div.square-data-des {
             font-size: 12px;
           }
         }
