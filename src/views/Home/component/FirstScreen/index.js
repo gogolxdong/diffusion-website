@@ -61,68 +61,34 @@ const FirstScreen = () => {
     const cloudBg = document.querySelector(".cloudBg");
     const cityBg = document.querySelector(".cityBg");
     const stickyWrap = document.querySelector(".sticky-wrap");
+    const cityWrap = document.querySelector(".city-wrap");
+    const cityImgWrap = document.querySelector(".city-img-wrap");
+    const universeWrap = document.querySelector(".universe-wrap");
+    const universeImgWrap = document.querySelector(".universe-img-wrap");
     const height = stickyWrap.offsetHeight;
     if (scrollTop >= startOpen && scrollTop < startOpen + height) {
       const offset = scrollTop - startOpen
       cloudBg.style.display = "block";
       cityBg.style.display = "none";
-      anime({
-        targets: ".city-wrap",
-        translateY: offset,
-        easing: "easeInOutExpo",
-      });
-      anime({
-        targets: ".city-img-wrap",
-        translateY: -offset,
-        easing: "easeInOutExpo",
-      });
-      anime({
-        targets: ".universe-wrap",
-        translateY: -offset,
-        easing: "easeInOutExpo",
-      });
-      anime({
-        targets: ".universe-img-wrap",
-        translateY: offset,
-        duration: 5000,
-        easing: "easeInOutExpo",
-      });
+      let percent =  parseFloat((offset / height).toFixed(2))
+      percent = percent >= 0.96 ? 1:percent
+      const percent2 = parseFloat(1+percent)
+      elemetDisplay(cityWrap,offset, percent2)
+      elemetDisplay(cityImgWrap,-offset, percent2)
+      elemetDisplay(universeWrap,-offset, percent)
+      elemetDisplay(universeImgWrap,offset, percent)
     }
   };
 
-  // const handleDisplay = () => {
-  //   if (!hasScroll) return;
-  //   const cloudBg = document.querySelector(".cloudBg");
-  //   const cityBg = document.querySelector(".cityBg");
-  //   const firstScreen = document.querySelector(".first-screen-wrap");
-  //   cloudBg.style.display = "block";
-  //   cityBg.style.display = "none";
-  //   const height = firstScreen.offsetHeight;
-  //   anime({
-  //     targets: ".city-wrap",
-  //     translateY: height,
-  //     duration: 5000,
-  //     easing: "easeInOutExpo",
-  //   });
-  //   anime({
-  //     targets: ".city-img-wrap",
-  //     translateY: -height,
-  //     duration: 5000,
-  //     easing: "easeInOutExpo",
-  //   });
-  //   anime({
-  //     targets: ".universe-wrap",
-  //     translateY: -height,
-  //     duration: 5000,
-  //     easing: "easeInOutExpo",
-  //   });
-  //   anime({
-  //     targets: ".universe-img-wrap",
-  //     translateY: height,
-  //     duration: 5000,
-  //     easing: "easeInOutExpo",
-  //   });
-  // };
+  const elemetDisplay = (ele,translateY,scale) => {
+    // ele.style.transform =  "translateY("+ translateY +"px) scale("+ scale +")";
+    anime({
+      targets: ele,
+      translateY: translateY,
+      // scale: scale,
+      easing: "easeInOutExpo",
+    });
+  }
 
   return (
     <div className="first-screen-wrap">
