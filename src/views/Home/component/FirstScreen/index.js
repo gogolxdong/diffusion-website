@@ -25,8 +25,8 @@ import trajectory2 from "@/assets/img/universe/trajectory2.png";
 import "./index.scss";
 
 const FirstScreen = () => {
-  const [hasScroll, setHasScroll] = useState(false);
   // addEventListener scroll
+  const startOpen = 64;
   useEffect(() => {
     const ele = document;
     drawStar()
@@ -35,10 +35,6 @@ const FirstScreen = () => {
       return () => ele.removeEventListener("scroll", handleScroll);
     }
   }, []);
-
-  useEffect(() => {
-    handleDisplay();
-  }, [hasScroll]);
 
   const drawStar = () => {
     const cityBg = document.querySelector(".cityBg");
@@ -59,51 +55,81 @@ const FirstScreen = () => {
     }
   };
 
-  const handleScroll = () => {
-    if (!hasScroll) {
-      setHasScroll(true);
+  const handleScroll = (e) => {
+    // get scrollTop
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const cloudBg = document.querySelector(".cloudBg");
+    const cityBg = document.querySelector(".cityBg");
+    const stickyWrap = document.querySelector(".sticky-wrap");
+    const height = stickyWrap.offsetHeight;
+    if (scrollTop >= startOpen && scrollTop < startOpen + height) {
+      const offset = scrollTop - startOpen
+      cloudBg.style.display = "block";
+      cityBg.style.display = "none";
+      anime({
+        targets: ".city-wrap",
+        translateY: offset,
+        easing: "easeInOutExpo",
+      });
+      anime({
+        targets: ".city-img-wrap",
+        translateY: -offset,
+        easing: "easeInOutExpo",
+      });
+      anime({
+        targets: ".universe-wrap",
+        translateY: -offset,
+        easing: "easeInOutExpo",
+      });
+      anime({
+        targets: ".universe-img-wrap",
+        translateY: offset,
+        duration: 5000,
+        easing: "easeInOutExpo",
+      });
     }
   };
 
-  const handleDisplay = () => {
-    if (!hasScroll) return;
-    const cloudBg = document.querySelector(".cloudBg");
-    const cityBg = document.querySelector(".cityBg");
-    const firstScreen = document.querySelector(".first-screen-wrap");
-    cloudBg.style.display = "block";
-    cityBg.style.display = "none";
-    const height = firstScreen.offsetHeight;
-    anime({
-      targets: ".city-wrap",
-      translateY: height,
-      duration: 5000,
-      easing: "easeInOutExpo",
-    });
-    anime({
-      targets: ".city-img-wrap",
-      translateY: -height,
-      duration: 5000,
-      easing: "easeInOutExpo",
-    });
-    anime({
-      targets: ".universe-wrap",
-      translateY: -height,
-      duration: 5000,
-      easing: "easeInOutExpo",
-    });
-    anime({
-      targets: ".universe-img-wrap",
-      translateY: height,
-      duration: 5000,
-      easing: "easeInOutExpo",
-    });
-  };
+  // const handleDisplay = () => {
+  //   if (!hasScroll) return;
+  //   const cloudBg = document.querySelector(".cloudBg");
+  //   const cityBg = document.querySelector(".cityBg");
+  //   const firstScreen = document.querySelector(".first-screen-wrap");
+  //   cloudBg.style.display = "block";
+  //   cityBg.style.display = "none";
+  //   const height = firstScreen.offsetHeight;
+  //   anime({
+  //     targets: ".city-wrap",
+  //     translateY: height,
+  //     duration: 5000,
+  //     easing: "easeInOutExpo",
+  //   });
+  //   anime({
+  //     targets: ".city-img-wrap",
+  //     translateY: -height,
+  //     duration: 5000,
+  //     easing: "easeInOutExpo",
+  //   });
+  //   anime({
+  //     targets: ".universe-wrap",
+  //     translateY: -height,
+  //     duration: 5000,
+  //     easing: "easeInOutExpo",
+  //   });
+  //   anime({
+  //     targets: ".universe-img-wrap",
+  //     translateY: height,
+  //     duration: 5000,
+  //     easing: "easeInOutExpo",
+  //   });
+  // };
 
   return (
     <div className="first-screen-wrap">
-      <div className="first-screen-wrap-img cityBg"></div>
-      <img src={cloudBg} className='first-screen-wrap-img cloudBg' style={{ display: 'none' }}/>
-      <div className='city-wrap'>
+      <div className="sticky-wrap">
+        <div className="first-screen-wrap-img cityBg"></div>
+        <img src={cloudBg} className='first-screen-wrap-img cloudBg' style={{ display: 'none' }}/>
+        <div className='city-wrap'>
           <img src={darkCity} className='darkCity' />
           <img src={brightCity} className='brightCity' />
         </div>
@@ -130,6 +156,7 @@ const FirstScreen = () => {
           <img src={trajectory1} className='trajectory1' />
           <img src={trajectory2} className='trajectory2' />
         </div>
+      </div>
     </div>
   );
 };
