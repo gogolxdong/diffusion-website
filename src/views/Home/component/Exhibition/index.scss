@@ -8,6 +8,7 @@ $contentHeightMobile: 300px;
   height: $contentHeight;
   margin: 120px 0;
   position: relative;
+  overflow: hidden;
   .exhibition-wrap-img {
     width: 100%;
     height: calc(100% + 480px);
