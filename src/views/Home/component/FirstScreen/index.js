@@ -26,7 +26,7 @@ import "./index.scss";
 
 const FirstScreen = () => {
   // addEventListener scroll
-  const startOpen = 64;
+  const startOpen = 0;
   useEffect(() => {
     const ele = document;
     drawStar()
@@ -68,8 +68,13 @@ const FirstScreen = () => {
     const height = stickyWrap.offsetHeight;
     if (scrollTop >= startOpen && scrollTop < startOpen + height) {
       const offset = scrollTop - startOpen
-      cloudBg.style.display = "block";
-      cityBg.style.display = "none";
+      if (offset >= height/2) {
+        cloudBg.style.display = "block";
+        cityBg.style.display = "none";
+      } else {
+        cloudBg.style.display = "none";
+        cityBg.style.display = "block";
+      }
       let percent =  parseFloat((offset / height).toFixed(2))
       percent = percent >= 0.96 ? 1:percent
       const percent2 = parseFloat(1+percent)

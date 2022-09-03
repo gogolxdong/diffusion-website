@@ -18,7 +18,7 @@ function App() {
         <HeaderComponent />
       </Header>
       <Content>
-        <Halo />
+        {/* <Halo /> */}
         <Routes>
           <Route path="/" element={<div><Home /></div>} />
           <Route path="/home" element={<div><Home /></div>} />
