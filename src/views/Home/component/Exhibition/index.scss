@@ -8,7 +8,6 @@ $contentHeightMobile: 300px;
   height: $contentHeight;
   margin: 120px 0;
   position: relative;
-  overflow: hidden;
   .exhibition-wrap-img {
     width: 100%;
     height: calc(100% + 480px);
@@ -26,6 +25,11 @@ $contentHeightMobile: 300px;
     top: 0;
     bottom: 0;
     margin: auto;
+    .ant-carousel {
+      width: calc(100% - 16px);
+      height: 100%;
+      margin: auto;
+    }
     .carousel-item {
       width: 100%;
       height: $contentHeight;
@@ -40,11 +44,11 @@ $contentHeightMobile: 300px;
       top: -100px;
     }
     .carousel-wrap-img {
-      width: calc(100% + 16px);
+      width: 100%;
       height: calc(100% + 80px);
       position: absolute;
-      left: -8px;
-      bottom: -8px;
+      left: 0;
+      bottom: 0;
       background-image: url(../../../../assets/img/carousel-wrap-img.png);
       background-size: 100% 100%;
     }
@@ -74,6 +78,9 @@ $contentHeightMobile: 300px;
       .carousel-wrap-img {
         background-image: url(../../../../assets/img/carousel-wrap-img-mobile.png);
         background-size: 100% 100%;
+      }
+      .arc-star-img {
+        display: none;
       }
     }
   }

@@ -6,6 +6,9 @@ import './index.scss'
 import samsung from '@/assets/img/samsung-log.png'
 import upbit from '@/assets/img/upbit-log.png'
 import binance from '@/assets/img/binance-logo.png'
+import dalles from '@/assets/img/dalles-logo.jpg'
+import kyles from '@/assets/img/kyles-logo.jpg'
+
 
 
 const Home = () => {
@@ -30,8 +33,8 @@ const Home = () => {
       classNames='show1'
     >
       <div className='partner-item'>
-        <img src={upbit} />
-        <img src={samsung} />
+        <img src={dalles} />
+        <img src={kyles} />
       </div>
     </CSSTransition>
     <CSSTransition
