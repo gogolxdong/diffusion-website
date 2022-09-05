@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import anime from "animejs";
-import cityBg from "@/assets/img/cityBg.png";
 import cloudBg from "@/assets/img/cloudBg.png";
 import brightCity from "@/assets/img/brightCity.png";
 import darkCity from "@/assets/img/darkCity.png";
@@ -66,9 +65,9 @@ const FirstScreen = () => {
     const universeWrap = document.querySelector(".universe-wrap");
     const universeImgWrap = document.querySelector(".universe-img-wrap");
     const height = stickyWrap.offsetHeight;
-    if (scrollTop >= startOpen && scrollTop < startOpen + height) {
-      const offset = scrollTop - startOpen
-      if (offset >= height/2) {
+    if (scrollTop >= startOpen && scrollTop < startOpen + 4*height) {
+      const offset = (scrollTop - startOpen)/4
+      if (offset >= height*2) {
         cloudBg.style.display = "block";
         cityBg.style.display = "none";
       } else {
@@ -78,20 +77,22 @@ const FirstScreen = () => {
       let percent =  parseFloat((offset / height).toFixed(2))
       percent = percent >= 0.96 ? 1:percent
       const percent2 = parseFloat(1+percent)
-      elemetDisplay(cityWrap,offset, percent2)
-      elemetDisplay(cityImgWrap,-offset, percent2)
-      elemetDisplay(universeWrap,-offset, percent)
-      elemetDisplay(universeImgWrap,offset, percent)
+      let opacity = 1 - percent/2
+      elemetDisplay(cityWrap,offset, percent2, opacity)
+      elemetDisplay(cityImgWrap,-offset, percent2, opacity)
+      elemetDisplay(universeWrap,-offset, percent, percent)
+      elemetDisplay(universeImgWrap,offset, percent, percent)
     }
   };
 
-  const elemetDisplay = (ele,translateY,scale) => {
+  const elemetDisplay = (ele,translateY,scale, opacity) => {
     // ele.style.transform =  "translateY("+ translateY +"px) scale("+ scale +")";
     anime({
       targets: ele,
       translateY: translateY,
-      // scale: scale,
-      easing: "easeInOutExpo",
+      scale: scale,
+      opacity: opacity,
+      easing: "easeInOutQuad",
     });
   }
 
