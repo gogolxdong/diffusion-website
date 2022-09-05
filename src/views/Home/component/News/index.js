@@ -58,14 +58,14 @@ const News = () => {
               timeout={ 1000 }
               classNames='show'
             >
-              <div className='item-time'>China.org.cn　2021-05-25</div>
+              <div className='item-time'>Published in Coinmonks·Jun 23</div>
             </CSSTransition>
             <CSSTransition
               in={!!inView1}
               timeout={ 1000 }
               classNames='show1'
             >
-              <div className='item-content'>Rome Declaration of Global Health123123 SummitHealth Summit</div>
+              <div className='item-content'><a href="https://medium.com/coinmonks/diffusiondao-multiverse-the-collection-and-fruition-of-human-dreams-in-digital-space-8e7e305e3486" target="blank">DiffusionDao multiverse- the collection and fruition of human dreams in digital space</a></div>
             </CSSTransition>
           </div>
         </Col>
@@ -76,14 +76,14 @@ const News = () => {
               timeout={ 1000 }
               classNames='show'
             >
-              <div className='item-time'>China.org.cn　2021-05-25</div>
+              <div className='item-time'>Published in Coinmonks·Jun 18</div>
             </CSSTransition>
             <CSSTransition
               in={!!inView2}
               timeout={ 1000 }
               classNames='show1'
             >
-              <div className='item-content'>Rome Declaration of Global Health123123 SummitHealth Summit</div>
+              <div className='item-content'><a href="https://medium.com/coinmonks/the-intrinsic-value-of-diffusiondaos-crazy-multi-meta-verse-cb75cc5dcfec" target="blank">The intrinsic value of DiffusionDAO’s crazy multi meta verse</a></div>
             </CSSTransition>
           </div>
           <div className='news-item' ref={observe3}>
@@ -92,14 +92,14 @@ const News = () => {
               timeout={ 1000 }
               classNames='show'
             >
-              <div className='item-time'>China.org.cn　2021-05-25</div>
+              <div className='item-time'>Published in Coinmonks·Jun 11</div>
             </CSSTransition>
             <CSSTransition
               in={!!inView3}
               timeout={ 1000 }
               classNames='show1'
             >
-              <div className='item-content'>Rome Declaration of Global Health123123 SummitHealth Summit</div>
+              <div className='item-content'><a href="https://medium.com/coinmonks/the-dual-realities-of-diffusiondao-and-crazy-multiverse-7b4cc0437989" target="blank">DiffusionDAO’s dual realities and DiffusionDAO’s crazy multi meta verse</a></div>
             </CSSTransition>
           </div>
           <div className='news-item' ref={observe4}>
@@ -108,14 +108,14 @@ const News = () => {
               timeout={ 1000 }
               classNames='show'
             >
-              <div className='item-time'>China.org.cn　2021-05-25</div>
+              <div className='item-time'>Published in Coinmonks·May 25</div>
             </CSSTransition>
             <CSSTransition
               in={!!inView4}
               timeout={ 1000 }
               classNames='show1'
             >
-              <div className='item-content'>Rome Declaration of Global Health123123 SummitHealth Summit</div>
+              <div className='item-content'><a href="https://medium.com/coinmonks/diffusiondaos-organization-and-core-business-exposition-49437df8c8c" target="blank">DiffusionDAO’s Organization and Core Business Exposition</a></div>
             </CSSTransition>
           </div>
         </Col>

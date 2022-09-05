@@ -67,10 +67,12 @@
       }
       .item-content {
         line-height: 40px;
-        font-size: 24px;
-        font-family: HelveticaNeue-Medium, HelveticaNeue;
-        font-weight: 500;
-        color: #FFFFFF;
+        a {
+          font-size: 24px;
+          font-family: HelveticaNeue-Medium, HelveticaNeue;
+          font-weight: 500;
+          color: #FFFFFF;
+        }
       }
     }
   }
