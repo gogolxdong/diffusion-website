@@ -65,9 +65,9 @@ const FirstScreen = () => {
     const universeWrap = document.querySelector(".universe-wrap");
     const universeImgWrap = document.querySelector(".universe-img-wrap");
     const height = stickyWrap.offsetHeight;
-    if (scrollTop >= startOpen && scrollTop < startOpen + 4*height) {
-      const offset = (scrollTop - startOpen)/4
-      if (offset >= height*2) {
+    if (scrollTop >= startOpen && scrollTop < startOpen + 5*height) {
+      const offset = (scrollTop - startOpen)/5
+      if (offset >= height/2) {
         cloudBg.style.display = "block";
         cityBg.style.display = "none";
       } else {
@@ -86,14 +86,14 @@ const FirstScreen = () => {
   };
 
   const elemetDisplay = (ele,translateY,scale, opacity) => {
-    // ele.style.transform =  "translateY("+ translateY +"px) scale("+ scale +")";
-    anime({
-      targets: ele,
-      translateY: translateY,
-      scale: scale,
-      opacity: opacity,
-      easing: "easeInOutQuad",
-    });
+    ele.style.transform =  "translateY("+ translateY +"px)";
+    // anime({
+    //   targets: ele,
+    //   translateY: translateY,
+    //   scale: scale,
+    //   opacity: opacity,
+    //   easing: "easeInOutQuad",
+    // });
   }
 
   return (
