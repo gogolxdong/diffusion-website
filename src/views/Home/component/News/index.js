@@ -70,7 +70,7 @@ const News = () => {
           </div>
         </Col>
         <Col xs={24} sm={24} md={12} lg={12} xl={12}>
-          <div className='news-item' ref={observe2}>
+          <div className='news-item flexStart' ref={observe2}>
             <CSSTransition
               in={!!inView2}
               timeout={ 1000 }

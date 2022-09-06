@@ -15,7 +15,7 @@
   }
   .participate-list {
     width: 100%;
-    margin: 40px 0;
+    margin: 60px 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -224,17 +224,18 @@
         animation: participateArrowMovement 2s linear infinite;
         -webkit-animation: participateArrowMovement 2s linear infinite;
         -moz-animation: participateArrowMovement 2s linear infinite;
+        margin-left: 20PX;
       }
 
       @keyframes participateArrowMovement {
-        from {
+        0% {
           scale: 1;
-          margin-left: 20px;
+          transform: translateX(0px);
         }
 
-        to {
+        100% {
           scale: 1.2;
-          margin-left: 28px;
+          transform: translateX(10px);
         }
       }
     }

@@ -65,8 +65,8 @@ const FirstScreen = () => {
     const universeWrap = document.querySelector(".universe-wrap");
     const universeImgWrap = document.querySelector(".universe-img-wrap");
     const height = stickyWrap.offsetHeight;
-    if (scrollTop >= startOpen && scrollTop < startOpen + 5*height) {
-      const offset = (scrollTop - startOpen)/5
+    if (scrollTop >= startOpen && scrollTop < startOpen + 3*height) {
+      const offset = (scrollTop - startOpen)/3
       if (offset >= height/2) {
         cloudBg.style.display = "block";
         cityBg.style.display = "none";
