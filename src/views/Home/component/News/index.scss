@@ -22,7 +22,7 @@
       flex: 1;
       box-sizing:content-box;
       border-bottom: 10px solid;
-      border-image: linear-gradient(to right, #3c00ff, #ec6eff) 10 10 10 10;
+      border-image: linear-gradient(to right, #3c00ff, #ec6eff) 0 0 10 0;
       .line-left {
         line-height: 100px;
         font-size: 66px;
@@ -31,7 +31,7 @@
         color: #FFFFFF;
         box-sizing:content-box;
         border-top: 10px solid;
-        border-image: linear-gradient(to right, #3c00ff, #ec6eff) 10 10 10 10;
+        border-image: linear-gradient(to right, #3c00ff, #ec6eff) 10 0 0 0;
       }
       .line-right {
         font-size: 33px;
