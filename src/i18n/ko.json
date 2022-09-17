@@ -1,0 +1,52 @@
+{
+  "header": {
+    "Document":"문서",
+    "Dapp":"Dapp"
+  },
+  "home": {
+    "square-title": "차세대 공동 비축",
+    "System": "체계",
+    "square-des": "DiffusionDAO MetaFi 는 Web 3.0 기반의 공동예금 시스템입니다.",
+    "square-item1": "주의 요소",
+    "square-item2": "확산 계수",
+    "square-item3": "호출 요소",
+    "New Keynesianism": "새로운 케인즈주의",
+    "New-Keynesianism-des1": "신케인즈 경제학의 1세대는 1930년대에서 1970년대, 특히 제2차 세계대전 이후에 발전한 케인즈 경제학의 도입부였다.",
+    "New-Keynesianism-des2": "이 이론은 규율 규제의 중요성을 강조합니다. DiffusionDAO MetaFi는 이 학교의 아이디어와 도구를 채택하고 이를 전체 알고리즘에 통합하여 생태 경제의 안정성과 조정 가능성을 보장합니다.",
+    "DSGE": "DSGE",
+    "DSGE-des1": "DSGE는 Dynamic Stochastic General Equilibrium 모델의 약자입니다. Web 3.0의 거시경제 모델은 시간적, 동적이며 확률론적 불확실성을 가지고 있으며 경제는 일반균형의 관점에서 분석되어야 한다. 따라서 MetaFi에서 우리의 중요한 규정은 수학 금융의 왕관인 DSGE 모델이 제공하는 지침 데이터를 기반으로 합니다.",
+    "DSGE-des2": "이것은 암호화폐 세계의 과학적 모델의 첫 번째 이정표입니다.",
+    "DFS": "DFS",
+    "DFS-des1": "DFS는 DiffusionDAO 멀티버스의 핵심 자산입니다.",
+    "DFS-des2": "각 DFS는 해당 무위험 자산으로 뒷받침되므로 각 DFS는 안심하고 안전한 디지털 자산이 될 내재가치를 가지고 있습니다.",
+    "SPOS": "SPOS",
+    "SPOS-des1": "Social Pos(지적 권리와 이익의 증명). DiffusionDAO MetaFi에서 SPOS 합의 메커니즘은 DFS를 얻는 주요 수단입니다. ‘와이즈’형 NFT를 획득하여 SPOS 값을 향상시킬 수 있으므로 ‘남자‘가 당신을 위해 일할 수 있습니다.",
+    "SPOS-des2": "지적 형평성을 높여 수입을 늘릴 수 있으므로 자신만의 '현자' 그룹을 형성하십시오.",
+    "MetaFi": "MetaFi",
+    "MetaFi-des": "DiffusionDAO MetaFi는 미래 디지털 공간의 금융 중심지이자 수학 공식으로 가득 찬 DiffusionDAO의 핵심 우주입니다. DiffusionDAO MetaFi는 새로운 Keynesian DSGE 모델을 채택하여 생태계를 규제함으로써 DFS가 목표 인플레이션율을 달성하고 우리의 약속에 따라 최적의 통화 정책을 실현하도록 합니다. DiffusionDAO MetaFi는 전체 생태계의 통계를 담당하는 방대한 시스템입니다. 우리는 DSGE 모델과 AI를 기반으로 몇 가지 주요 결정을 내리기 위해 확산 지수, TVL, 총 유동성 및 기타 주요 지표와 같은 전체 생태계의 다양한 데이터와 지표를 분석합니다. 예를 들어, 이자율 APY와 채권 할인율을 설정하고 전통적인 경제 지식을 분산 금융과 결합하여 전체 생태계에 대한 거시 통제를 수행합니다. 이곳은 부를 창출하는 공간이며 탐구하고 참여할 가치가 있는 금융 세계입니다. 여기에 귀하의 부의 창출 유산을 남겨주세요.",
+    "participat-title": "참여 방법은?",
+    "participat-item-1": "NFT를 보유하여 소득 창출",
+    "participat-item-2": "노예",
+    "participat-item-3": "수익 창출을 위한 DFS 스테이킹",
+    "participat-item-4": "농장을 만들고 부를 수확하십시오",
+    "participat-btn": "즉시 참여하십시오!",
+    "Metacosmic-tab": "보도 자료 및 제품 업데이트",
+    "Metacosmic-title": "메타버스 금융센터",
+    "Metacosmic-item1": "별의 황금 왕국",
+    "Metacosmic-item2": "녹색 지구와 웃는 아이",
+    "Metacosmic-item3": "이기적인 공간",
+    "NEWS": "소식",
+    "MORE": "더",
+    "Partner": "파트너"
+  },
+  "footer": {
+    "Products": "제품",
+    "Universe": "우주",
+    "Bonds": "채권",
+    "Staking": "서약",
+    "Learn": "문서",
+    "Documentation": "알아보기",
+    "Blog": "블로그",
+    "Contact": "문의하기"
+  }
+}

@@ -12,8 +12,8 @@
     "square-item3": "调用度要素",
     "New Keynesianism": "新凯恩斯主义",
     "New-Keynesianism-des1": "第一代新凯恩斯主义经济学是在1930年代至1970年代特别是二战后发展起来的凯恩斯主义经济学概论。",
-    "DSGE": "DSGE",
     "New-Keynesianism-des2": "该理论强调了学科规制的重要性。DiffusionDAO MetaFi 采用了该学派的思想和工具，并融入到整体算法中，保证了生态经济的稳定性和可调节性。",
+    "DSGE": "DSGE",
     "DSGE-des1": "DSGE是Dynamic Stochastic General Equilibrium model（动态随机均衡模型）的缩写。  Web 3.0 的宏观经济模型是跨期动态的，具有随机不确定性，需要从一般均衡的角度来分析经济。 因此，我们在MetaFi中的重要调控基于数理金融之冠DSGE模型给出的指导数据。",
     "DSGE-des2": "这是加密货币世界科学模型的第一个里程碑。",
     "DFS": "DFS",
@@ -37,11 +37,7 @@
     "Metacosmic-item3": "自私的空间",
     "NEWS": "新闻",
     "MORE": "更多",
-    "Partner": "合作伙伴",
-    "": "",
-    "": "",
-    "": "",
-    "": ""
+    "Partner": "合作伙伴"
   },
   "footer": {
     "Products": "产品",

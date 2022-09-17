@@ -1,0 +1,52 @@
+{
+  "header": {
+    "Document":"Unterlagen",
+    "Dapp":"Dapp"
+  },
+  "home": {
+    "square-title": "Gemeinsame Reserve der nächsten Generation",
+    "System": "System",
+    "square-des": "DiffusionDAO MetaFi ist ein gemeinsames Reservesystem, das auf Web 3.0 basiert",
+    "square-item1": "Aufmerksamkeitsfaktor",
+    "square-item2": "Diffusionskoeffizient",
+    "square-item3": "Aufruffaktor",
+    "New Keynesianism": "Neuer Keynesianismus",
+    "New-Keynesianism-des1": "Die erste Generation der neokeynesianischen Ökonomie war eine Einführung in die keynesianische Ökonomie, die von den 1930er bis 1970er Jahren entwickelt wurde, insbesondere nach dem Zweiten Weltkrieg.",
+    "New-Keynesianism-des2": "Diese Theorie betont die Bedeutung der Regulierung. DiffusionDAO MetaFi übernimmt die Ideen und Werkzeuge dieses Modells und integriert sie in den Gesamtalgorithmus, um die Stabilität und Greifbarkeit der Ökonomie des Ökosystems sicherzustellen.",
+    "DSGE": "DSGE",
+    "DSGE-des1": "DSGE ist die Abkürzung für Dynamic Stochastic General Equilibrium Model. Das makroökonomische Modell von Web 3.0 ist intertemporal dynamisch mit zufälliger Unsicherheit und muss die Wirtschaft aus der Perspektive des allgemeinen Gleichgewichts analysieren. Daher stammt unsere wichtige Regulierung in MetaFi aus den Orientierungsdaten des DSGE-Modells, das die Krone der mathematischen Finanzen darstellt.",
+    "DSGE-des2": "Dies ist der erste Meilenstein eines wissenschaftlichen Modells in der Welt der Kryptowährungen.",
+    "DFS": "DFS",
+    "DFS-des1": "DFS ist das Kernelement des DiffusionDAO MultiMetaverse.",
+    "DFS-des2": "Jede DFS wird durch einen entsprechenden risikofreien Vermögenswert unterstützt, sodass jede DFS einen inneren Wert hat, der ein beruhigendes und sicheres digitales Vermögen darstellt.",
+    "SPOS": "SPOS",
+    "SPOS-des1": "Social Pos (Nachweis intelligenter Rechte und Interessen). In DiffusionDAO MetaFi ist der SPOS-Konsensmechanismus das wichtigste Mittel, um DFS zu erhalten. Sie können den SPOS-Wert verbessern, indem Sie NFT vom „weisen“ Typ erhalten, damit „Männer“ für Sie arbeiten können.",
+    "SPOS-des2": "Sie können Ihr Einkommen erhöhen, indem Sie Ihr geistiges Eigentum erhöhen, also fangen Sie an, Ihre eigene Gruppe von 'Weisen' zu bilden.",
+    "MetaFi": "MetaFi",
+    "MetaFi-des": "DiffusionDAO MetaFi ist das Finanzzentrum des zukünftigen digitalen Raums und auch das Kernuniversum von DiffusionDAO, das voller mathematischer Formeln steckt. DiffusionDAO MetaFi übernimmt das neue keynesianische DSGE-Modell zur Regulierung des Ökosystems und veranlasst die DFS, die angestrebte Inflationsrate zu erreichen und die optimale Geldpolitik gemäß unserem Versprechen umzusetzen. DiffusionDAO MetaFi ist ein riesiges System, das für die Erfassung von Statistiken des gesamten Ökosystems verantwortlich ist. Wir analysieren verschiedene Daten und Indikatoren des gesamten Ökosystems, wie Diffusionsindex, TVL, Gesamtliquidität und andere Schlüsselindikatoren, um einige wichtige Entscheidungen auf der Grundlage des DSGE-Modells und der KI zu treffen. Beispielsweise werden der Zinssatz APY und der Diskontsatz für Anleihen festgelegt, und traditionelles Wirtschaftswissen wird mit dezentralisierten Finanzen kombiniert, um eine Makrokontrolle des gesamten Ökosystems durchzuführen. Dies ist ein Raum, um Wohlstand zu schaffen, dies ist ein Finanzuniversum, das es wert ist, erkundet und daran teilgenommen zu werden. Bitte hinterlassen Sie Ihr Vermächtnis zur Vermögensbildung hier.",
+    "participat-title": "Wie kann man teilnehmen?",
+    "participat-item-1": "Besitzen Sie NFTs, um Gewinne zu erzielen",
+    "participat-item-2": "Die Bindung",
+    "participat-item-3": "DFS-Token Staking für ein Einkommen",
+    "participat-item-4": "Erstellen Sie eine Farm und ernten Sie Reichtum",
+    "participat-btn": "Gleich mitmachen!",
+    "Metacosmic-tab": "Veröffentlichungen und Produktaktualisierungen",
+    "Metacosmic-title": "Metaverse Finanzzentrum",
+    "Metacosmic-item1": "Das goldene Reich der Sterne",
+    "Metacosmic-item2": "Unser grüner Planet und das Lächeln der Kinder",
+    "Metacosmic-item3": "Egoistischer Raum",
+    "NEWS": "den Nachrichten",
+    "MORE": "MEHR",
+    "Partner": "Partner"
+  },
+  "footer": {
+    "Products": "Produkte",
+    "Universe": "Universum",
+    "Bonds": "Anleihen",
+    "Staking": "Staking",
+    "Learn": "Lernen",
+    "Documentation": "Dokumentation",
+    "Blog": "Blog",
+    "Contact": "Kontaktiere uns"
+  }
+}

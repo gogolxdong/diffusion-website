@@ -21,6 +21,30 @@ const LangMenu = () => {
           key: "zh",
           label: <span>简体中文</span>,
         },
+        {
+          key: "de",
+          label: <span>Deutsch</span>,
+        },
+        {
+          key: "fr",
+          label: <span>Français</span>,
+        },
+        {
+          key: "hi",
+          label: <span>हिन्दी भाषा</span>,
+        },
+        {
+          key: "it",
+          label: <span>Italiano</span>,
+        },
+        {
+          key: "ja",
+          label: <span>日本語</span>,
+        },
+        {
+          key: "ko",
+          label: <span>한국인</span>,
+        }
       ]}
     />
   );

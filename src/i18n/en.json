@@ -4,14 +4,14 @@
     "Dapp":"Dapp"
   },
   "home": {
-    "square-title": "Next Generation Joint Reserve",
+    "square-title": "Next Gen Joint Reserve",
     "System": "System",
     "square-des": "DiffusionDAO MetaFi is a joint reserve system based on Web 3.0",
-    "square-item1": "Factors of attention",
-    "square-item2": "Diffusivity element",
-    "square-item3": "Call factor",
+    "square-item1": "Attention Factor",
+    "square-item2": "Diffusion coefficient",
+    "square-item3": "Invocation factor",
     "New Keynesianism": "New Keynesianism",
-    "New-Keynesianism-des1": "The first generation of Neo-Keynesian economics is a general economics idea developed from Keynesian economics during the 1930s through the 1970s, especially after World War II.",
+    "New-Keynesianism-des1": "The first generation of neo-Keynesian economics was an introduction to Keynesian economics developed from the 1930s to the 1970s, especially after World War II.",
     "New-Keynesianism-des2": "This theory emphasizes the significance of regulation. DiffusionDAO MetaFi adopts the ideas and tools of this model and integrates them into the overall algorithm to ensure the stability and tangibility of the ecosystem’s economy.",
     "DSGE": "DSGE",
     "DSGE-des1": "DSGE is the abbreviation of Dynamic Stochastic General Equilibrium model. Web 3.0’s macroeconomic model is intertemporal Dynamic with random uncertainty, and it needs to analyze the economy from the perspective of General Equilibrium. Therefore, our important regulation in MetaFi comes from the guidance data given by the DSGE model, which is the crown of mathematical finance.",
@@ -20,7 +20,7 @@
     "DFS-des1": "DFS is the core asset of the DiffusionDAO MultiMetaverse.",
     "DFS-des2": "Each DFS is backed by a corresponding risk-free asset, so each DFS has an intrinsic value, which is a reassuring and secure digital asset.",
     "SPOS": "SPOS",
-    "SPOS-des1": "Social Pos (proof of intelligent rights and interests). In DiffusionDAO MetaFi, SPOS consensus mechanism is the main means to obtain DFS. You can improve SPOS value by obtaining the 'wise' type NFT, so that 'men' can work for you.",
+    "SPOS-des1": "Social Pos (proof of intelligent rights and interests). In DiffusionDAO MetaFi, SPOS consensus mechanism is the main means to obtain DFS. You can improve SPOS value by obtaining the ‘wise’ type NFT, so that ‘men’ can work for you.",
     "SPOS-des2": "You can increase your income by increasing your intellectual equity, so start forming your own group of 'wisemen'.",
     "MetaFi": "MetaFi",
     "MetaFi-des": "DiffusionDAO MetaFi is the financial center of the future digital space and also the core universe of DiffusionDAO, which is full of mathematical formulas. DiffusionDAO MetaFi adopts the new Keynesian DSGE model to regulate the ecosystem, prompting DFS to achieve the target inflation rate and realize the optimal monetary policy under our promise. DiffusionDAO MetaFi is a vast system responsible for taking statistics of the entire ecosystem. We analyze various datas and indicators of the whole ecosystem, such as diffusion index, TVL, total liquidity and other key indicators, in order to make some major decisions based on the DSGE model and AI. For example, interest rate APY and bond discount rate are set, and traditional economics knowledge is combined with decentralized finance to carry out macro-control on the whole ecosystem. This is a space to create wealth, this is a financial universe worth exploring and participating in, please leave your wealth creation legacy here.",
@@ -37,8 +37,7 @@
     "Metacosmic-item3": "Selfish Space",
     "NEWS": "THE NEWS",
     "MORE": "MORE",
-    "Partner": "Partner",
-    "": ""
+    "Partner": "Partner"
   },
   "footer": {
     "Products": "Products",

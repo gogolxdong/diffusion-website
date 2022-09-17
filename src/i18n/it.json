@@ -1,0 +1,52 @@
+{
+  "header": {
+    "Document":"Documento",
+    "Dapp":"Dapp"
+  },
+  "home": {
+    "square-title": "Riserva congiunta di nuova generazione",
+    "System": "Impostazione",
+    "square-des": "DiffusionDAO MetaFi è un sistema di riserva comune basato sul Web 3.0",
+    "square-item1": "Fattore di attenzione",
+    "square-item2": "Coefficiente di diffusione",
+    "square-item3": "Fattore di invocazione",
+    "New Keynesianism": "Nuovo keynesismo",
+    "New-Keynesianism-des1": "La prima generazione di economia neokeynesiana è stata un'introduzione all'economia keynesiana sviluppata dagli anni '30 agli anni '70, in particolare dopo la seconda guerra mondiale.",
+    "New-Keynesianism-des2": "Questa teoria sottolinea il significato della regolamentazione. DiffusionDAO MetaFi adotta le idee e gli strumenti di questo modello e li integra nell'algoritmo generale per garantire la stabilità e la tangibilità dell'economia dell'ecosistema.",
+    "DSGE": "DSGE",
+    "DSGE-des1": "DSGE è l'abbreviazione del modello Dynamic Stochastic General Equilibrium. Il modello macroeconomico del Web 3.0 è dinamico intertemporale con incertezza casuale e deve analizzare l'economia dal punto di vista dell'equilibrio generale. Pertanto, la nostra importante regolamentazione in MetaFi deriva dai dati di orientamento forniti dal modello DSGE, che è la corona della finanza matematica.",
+    "DSGE-des2": "Questa è la prima pietra miliare di un modello scientifico nel mondo delle criptovalute.",
+    "DFS": "DFS",
+    "DFS-des1": "DFS è la risorsa principale di DiffusionDAO MultiMetaverse.",
+    "DFS-des2": "Ogni DFS è supportato da un corrispondente asset privo di rischi, quindi ogni DFS ha un valore intrinseco, che è un asset digitale rassicurante e sicuro.",
+    "SPOS": "SPOS",
+    "SPOS-des1": "Social Pos (prova di diritti e interessi intelligenti). In DiffusionDAO MetaFi, il meccanismo di consenso SPOS è il mezzo principale per ottenere DFS. Puoi migliorare il valore SPOS ottenendo il tipo 'saggio' NFT, in modo che 'uomini' possano lavorare per te.",
+    "SPOS-des2": "Puoi aumentare le tue entrate aumentando la tua equità intellettuale, quindi inizia a formare il tuo gruppo di 'saggi'.",
+    "MetaFi": "MetaFi",
+    "MetaFi-des": "DiffusionDAO MetaFi è il centro finanziario del futuro spazio digitale e anche l'universo centrale di DiffusionDAO, che è pieno di formule matematiche. DiffusionDAO MetaFi adotta il nuovo modello Keynesiano DSGE per regolare l'ecosistema, spingendo DFS a raggiungere il tasso di inflazione target e realizzare la politica monetaria ottimale sotto la nostra promessa. DiffusionDAO MetaFi è un vasto sistema responsabile della rilevazione delle statistiche dell'intero ecosistema. Analizziamo vari dati e indicatori dell'intero ecosistema, come indice di diffusione, TVL, liquidità totale e altri indicatori chiave, al fine di prendere alcune decisioni importanti basate sul modello DSGE e sull'IA. Ad esempio, vengono impostati il tasso di interesse APY e il tasso di sconto delle obbligazioni e le conoscenze economiche tradizionali vengono combinate con la finanza decentralizzata per effettuare il macrocontrollo sull'intero ecosistema. Questo è uno spazio per creare ricchezza, questo è un universo finanziario che vale la pena esplorare e partecipare, per favore lascia qui la tua eredità di creazione di ricchezza.",
+    "participat-title": "Come partecipare?",
+    "participat-item-1": "Possedere NFT per generare profitti",
+    "participat-item-2": "Il legame",
+    "participat-item-3": "Token DFS Staking per un reddito",
+    "participat-item-4": "Crea una fattoria e raccogli ricchezza",
+    "participat-btn": "Partecipa subito!",
+    "Metacosmic-tab": "Rilasci e aggiornamenti del prodotto",
+    "Metacosmic-title": "Centro finanziario del Metaverso",
+    "Metacosmic-item1": "Il regno d'oro delle stelle",
+    "Metacosmic-item2": "Il nostro Pianeta Verde e i sorrisi dei bambini",
+    "Metacosmic-item3": "Spazio egoistico",
+    "NEWS": "NELLE NEWS",
+    "MORE": "ALTRO",
+    "Partner": "Partner"
+  },
+  "footer": {
+    "Products": "Prodotti",
+    "Universe": "Universo",
+    "Bonds": "Obbligazioni",
+    "Staking": "Staking",
+    "Learn": "Impara",
+    "Documentation": "Documentazione",
+    "Blog": "Blog",
+    "Contact": "Contattaci"
+  }
+}

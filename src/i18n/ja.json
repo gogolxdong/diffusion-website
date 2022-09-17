@@ -1,0 +1,52 @@
+{
+  "header": {
+    "Document":"ドキュメンテーション",
+    "Dapp":"Dapp"
+  },
+  "home": {
+    "square-title": "次世代共同準備金",
+    "System": "システム",
+    "square-des": "DiffusionDAO MetaFi は、Web 3.0 ベースの共同準備システムです。",
+    "square-item1": "注意要素",
+    "square-item2": "拡散係数",
+    "square-item3": "呼び出し要因",
+    "New Keynesianism": "ニューケインズ主義",
+    "New-Keynesianism-des1": "第 1 世代のネオケインジアン経済学は、1930 年代から 1970 年代、特に第二次世界大戦後に開発されたケインジアン経済学への導入でした。",
+    "New-Keynesianism-des2": "この理論は、規律規制の重要性を強調しています。 DiffusionDAO MetaFi は、この学校のアイデアとツールを採用し、それをアルゴリズム全体に統合して、生態経済の安定性と調整可能性を確保します。",
+    "DSGE": "DSGE",
+    "DSGE-des1": "DSGE は Dynamic Stochastic General Equilibrium model の頭字語です。 Web 3.0 のマクロ経済モデルは異時点間かつ動的であり、確率論的な不確実性を伴うため、経済は一般均衡の観点から分析する必要があります。 したがって、MetaFi における重要な規則は、数学的金融の王冠である DSGE モデルによって与えられたガイダンス データに基づいています。",
+    "DSGE-des2": "これは、暗号通貨の世界の科学モデルにおける最初のマイルストーンです。",
+    "DFS": "DFS",
+    "DFS-des1": "DFS は、DiffusionDAO マルチバースのコア アセットです。",
+    "DFS-des2": "各 DFS は、対応するリスクのない資産によって支えられているため、各 DFS には、安心で安全なデジタル資産であるという本質的な価値があります。",
+    "SPOS": "SPOS",
+    "SPOS-des1": "Social Pos (知的な権利と利益の証明)。 DiffusionDAO MetaFi では、SPOS コンセンサス メカニズムが DFS を取得する主な手段です。 「賢い」タイプのNFTを手に入れることでSPOS値を上げ、「男」が活躍できるようになります。",
+    "SPOS-des2": "知的財産を増やすことで収入を増やすことができるので、独自の「賢者」のグループを作り始めましょう。",
+    "MetaFi": "MetaFi",
+    "MetaFi-des": "DiffusionDAO MetaFi は、未来のデジタル空間の金融センターであり、数式でいっぱいの DiffusionDAO のコア ユニバースでもあります。 DiffusionDAO MetaFi は、新しいケインジアン DSGE モデルを採用してエコシステムを規制し、DFS に目標インフレ率を達成させ、私たちの約束の下で最適な金融政策を実現させます。 DiffusionDAO MetaFi は、エコシステム全体の統計を取るための巨大なシステムです。 DSGEモデルとAIに基づいて主要な決定を下すために、拡散指数、TVL、総流動性、その他の重要な指標など、エコシステム全体のさまざまなデータと指標を分析します。 たとえば、APY の金利と債券の割引率を設定し、伝統的な経済学の知識と分散型金融を組み合わせて、エコシステム全体のマクロ コントロールを実行します。 これは富を創造するための空間です。これは探求し、参加する価値のある金融の世界です。あなたの富の創造の遺産をここに残してください。",
+    "participat-title": "参加方法は？",
+    "participat-item-1": "NFTを保持して収入を得る",
+    "participat-item-2": "つなぐ",
+    "participat-item-3": "DFSをステーキングして収入を得る",
+    "participat-item-4": "農場を作って富を収穫する",
+    "participat-btn": "すぐに参加してください！",
+    "Metacosmic-tab": "プレスリリースと製品アップデート",
+    "Metacosmic-title": "メタバース金融センター",
+    "Metacosmic-item1": "黄金の星の王国",
+    "Metacosmic-item2": "緑の大地と笑顔の子ども",
+    "Metacosmic-item3": "わがまま空間",
+    "NEWS": "ニュース",
+    "MORE": "もっと",
+    "Partner": "相棒"
+  },
+  "footer": {
+    "Products": "製品",
+    "Universe": "宇宙",
+    "Bonds": "債券",
+    "Staking": "ステーキ",
+    "Learn": "学び",
+    "Documentation": "ドキュメント",
+    "Blog": "ブログ",
+    "Contact": "お問い合わせ"
+  }
+}

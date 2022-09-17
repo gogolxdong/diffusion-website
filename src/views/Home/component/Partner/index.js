@@ -3,11 +3,19 @@ import { CSSTransition } from 'react-transition-group'
 import { useInView } from "react-cool-inview";
 import { useTranslation } from 'react-i18next'
 import './index.scss'
-import samsung from '@/assets/img/samsung-log.png'
 import upbit from '@/assets/img/upbit-log.png'
 import binance from '@/assets/img/binance-logo.png'
-import dalles from '@/assets/img/dalles-logo.jpg'
-import kyles from '@/assets/img/kyles-logo.jpg'
+import dalles from '@/assets/img/dalles-logo.png'
+import kyles from '@/assets/img/kyles-logo.png'
+import sbxg from '@/assets/img/sbxg-logo.png'
+import solidity from '@/assets/img/solidity-logo.png'
+import the from '@/assets/img/the-logo.png'
+import cLogo from '@/assets/img/c-logo.png'
+import pancake from '@/assets/img/pancake-logo.png'
+
+
+
+
 
 
 
@@ -44,7 +52,7 @@ const Home = () => {
     >
       <div className='partner-item'>
         <img src={binance} />
-        <img src={upbit} />
+        <img src={solidity} />
       </div>
     </CSSTransition>
     <CSSTransition
@@ -53,8 +61,18 @@ const Home = () => {
       classNames='show3'
     >
       <div className='partner-item'>
-        <img src={samsung} />
-        <img src={binance} />
+        <img src={the} />
+        <img src={cLogo} />
+      </div>
+    </CSSTransition>
+    <CSSTransition
+      in={!!inView}
+      timeout={ 1000 }
+      classNames='show4'
+    >
+      <div className='partner-item'>
+        <img src={sbxg} />
+        <img src={pancake} />
       </div>
     </CSSTransition>
   </div>
