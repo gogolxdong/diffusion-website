@@ -3,7 +3,6 @@ import { CSSTransition } from 'react-transition-group'
 import { useInView } from "react-cool-inview";
 import { useTranslation } from 'react-i18next'
 import './index.scss'
-import upbit from '@/assets/img/upbit-log.png'
 import binance from '@/assets/img/binance-logo.png'
 import dalles from '@/assets/img/dalles-logo.png'
 import kyles from '@/assets/img/kyles-logo.png'
