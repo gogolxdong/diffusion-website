@@ -33,7 +33,7 @@
     }
     img {
       width: 160px;
-      height: 35px;
+      height: 66px;
     }
     img:first-child {
       margin-bottom: 40px;
@@ -56,19 +56,18 @@
 }
 
 @media (max-width: 991px) {
-  .partner-wrap .partner-item {
-    .partner-left-text {
-      font-size: 28px;
-      height: 57px;
-      line-height: 57px;
-    }
-    img {
-      width: 116px;
-      height: 27px;
-    }
-    img:first-child {
-      width: 116px;
-      height: 27px;
+  .partner-wrap {
+    .partner-item {
+      margin: 20px;
+      .partner-left-text {
+        font-size: 28px;
+        height: 57px;
+        line-height: 57px;
+      }
+      img {
+        width: 160px;
+        height: 66px;
+      }
     }
   }
 }

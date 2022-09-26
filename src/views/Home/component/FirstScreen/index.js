@@ -1,5 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { Spin } from 'antd';
 import anime from "animejs";
+import cityBg from "@/assets/img/cityBg.png";
 import cloudBg from "@/assets/img/cloudBg.png";
 import brightCity from "@/assets/img/brightCity.png";
 import darkCity from "@/assets/img/darkCity.png";
@@ -24,11 +26,14 @@ import trajectory2 from "@/assets/img/universe/trajectory2.png";
 import "./index.scss";
 
 const FirstScreen = () => {
-  // addEventListener scroll
+  const [showImg, setShowImg] = useState(false);
   const startOpen = 0;
   useEffect(() => {
     const ele = document;
     drawStar()
+    setTimeout(() => {
+      setShowImg(true)
+    }, 3000);
     if (ele) {
       ele.addEventListener("scroll", handleScroll);
       return () => ele.removeEventListener("scroll", handleScroll);
@@ -99,15 +104,32 @@ const FirstScreen = () => {
   return (
     <div className="first-screen-wrap">
       <div className="sticky-wrap">
-        <div className="first-screen-wrap-img cityBg"></div>
+        <div className="first-screen-wrap-img cityBg">
+          {
+            showImg && <img src={cityBg} />
+          }
+        </div>
         <img src={cloudBg} className='first-screen-wrap-img cloudBg' style={{ display: 'none' }}/>
         <div className='city-wrap'>
-          <img src={darkCity} className='darkCity' />
-          <img src={brightCity} className='brightCity' />
+          {
+            showImg ? 
+              <>
+                <img src={darkCity} className='darkCity' />
+                <img src={brightCity} className='brightCity' />
+              </>
+            :
+            <Spin size="large" />
+          }
         </div>
         <div className='city-img-wrap'>
-          <img src={rocket} className='rocket' />
-          <img src={giantLogo} className='giantLogo' />
+          {
+            showImg && 
+              <>
+                <img src={rocket} className='rocket' />
+                <img src={giantLogo} className='giantLogo' />
+              </>
+          }
+
         </div>
         <div className='universe-wrap'>
           <img src={rocketSpacecraft} className='rocketSpacecraft' />
