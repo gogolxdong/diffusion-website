@@ -44,15 +44,9 @@ const Metacosmic = () => {
             timeout={ 1000 }
             classNames='show1'
           >
-            <div className='online-day'>2022 Oct.</div>
+            <div className='online-day'> 2022 Oct. Online </div>
           </CSSTransition>
-          <CSSTransition
-            in={!!inView1}
-            timeout={ 1000 }
-            classNames='show2'
-          >
-            <div className='online-tag'>Online</div>
-          </CSSTransition>
+
         </div>
       </div>
       <div className='mountain'></div>
