@@ -2,6 +2,8 @@
 
 html,body {
   background-color: #08060B;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 /* reset antd style */
