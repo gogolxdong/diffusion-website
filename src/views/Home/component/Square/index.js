@@ -88,7 +88,7 @@ const Square = () => {
                   )}
                 </div>
                 <div className="square-data-des">
-                  {t("home.diffusion-factor")}
+                  {t("home.diffusion-coefficient")}
                 </div>
               </div>
               <div className="square-data-item">

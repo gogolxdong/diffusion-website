@@ -8,10 +8,6 @@ import carousel1 from '@/assets/img/exhibition/carousel1.png'
 import carousel2 from '@/assets/img/exhibition/carousel2.png'
 import carousel3 from '@/assets/img/exhibition/carousel3.png'
 import carousel4 from '@/assets/img/exhibition/carousel4.png'
-import carousel5 from '@/assets/img/exhibition/carousel5.png'
-
-
-
 
 const Exhibition = () => {
     return <div className='exhibition-wrap'>
@@ -22,7 +18,6 @@ const Exhibition = () => {
           <img className='carousel-item' src={carousel2} />
           <img className='carousel-item' src={carousel3} />
           <img className='carousel-item' src={carousel4} />
-          <img className='carousel-item' src={carousel5} />
         </Carousel>
         <img src={earth} className="earth"/>
         <div className="carousel-wrap-img"></div>

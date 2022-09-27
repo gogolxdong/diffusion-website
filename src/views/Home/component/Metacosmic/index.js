@@ -44,7 +44,7 @@ const Metacosmic = () => {
             timeout={ 1000 }
             classNames='show1'
           >
-            <div className='online-day'>12 d</div>
+            <div className='online-day'>2022 Oct.</div>
           </CSSTransition>
           <CSSTransition
             in={!!inView1}
@@ -75,6 +75,7 @@ const Metacosmic = () => {
             <div className='metacosmic-card'>
               <div className='metacosmic-card-text'>{t('home.Metacosmic-item1')}</div>
               <img className='metacosmic-card-arrow' src={advantageArrow} />
+              <div className='metacosmic-card-text'>2023 Feb.</div>
               <img className='metacosmic-card-img' src={goldenStar} />
             </div>
           </CSSTransition>
@@ -88,6 +89,7 @@ const Metacosmic = () => {
             <div className='metacosmic-card'>
               <div className='metacosmic-card-text'>{t('home.Metacosmic-item2')}</div>
               <img className='metacosmic-card-arrow' src={advantageArrow} />
+              <div className='metacosmic-card-text'>2023 May.</div>
               <img className='metacosmic-card-img' src={greenChild} />
             </div>
           </CSSTransition>
@@ -101,6 +103,7 @@ const Metacosmic = () => {
             <div className='metacosmic-card' ref={observe4}>
               <div className='metacosmic-card-text'>{t('home.Metacosmic-item3')}</div>
               <img className='metacosmic-card-arrow' src={advantageArrow} />
+              <div className='metacosmic-card-text'>2023 Aug.</div>
               <img className='metacosmic-card-img' src={selfishSpace} />
             </div>
           </CSSTransition>
