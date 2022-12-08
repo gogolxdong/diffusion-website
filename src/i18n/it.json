@@ -1,7 +1,9 @@
 {
   "header": {
     "Document":"Documento",
-    "Dapp":"Dapp"
+    "Dapp":"Dapp",
+    "Whitepaper":"Whitepaper"
+
   },
   "home": {
     "square-title": "Riserva congiunta di nuova generazione",

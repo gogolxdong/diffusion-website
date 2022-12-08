@@ -1,7 +1,8 @@
 {
   "header": {
     "Document":"文档",
-    "Dapp":"Dapp"
+    "Dapp":"Dapp",
+    "Whitepaper":"白皮书"
   },
   "home": {
     "square-title": "新一代联合储备",

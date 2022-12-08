@@ -1,7 +1,9 @@
 {
   "header": {
     "Document":"ドキュメンテーション",
-    "Dapp":"Dapp"
+    "Dapp":"Dapp",
+    "Whitepaper":"Whitepaper"
+
   },
   "home": {
     "square-title": "次世代共同準備金",

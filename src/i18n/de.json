@@ -1,7 +1,9 @@
 {
   "header": {
     "Document":"Unterlagen",
-    "Dapp":"Dapp"
+    "Dapp":"Dapp",
+    "Whitepaper":"Whitepaper"
+
   },
   "home": {
     "square-title": "Gemeinsame Reserve der nächsten Generation",

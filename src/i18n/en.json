@@ -1,7 +1,9 @@
 {
   "header": {
     "Document":"Docs",
-    "Dapp":"Dapp"
+    "Dapp":"Dapp",
+    "Whitepaper":"Whitepaper"
+
   },
   "home": {
     "square-title": "Next Gen Joint Reserve",

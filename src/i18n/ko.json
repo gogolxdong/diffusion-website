@@ -1,7 +1,8 @@
 {
   "header": {
     "Document":"문서",
-    "Dapp":"Dapp"
+    "Dapp":"Dapp",
+    "Whitepaper":"Whitepaper"
   },
   "home": {
     "square-title": "차세대 공동 비축",
