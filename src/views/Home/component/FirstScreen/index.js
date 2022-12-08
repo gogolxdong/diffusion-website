@@ -39,7 +39,7 @@ const FirstScreen = () => {
       return () => ele.removeEventListener("scroll", handleScroll);
     }
   }, []);
-
+  
   const drawStar = () => {
     const cityBg = document.querySelector(".cityBg");
     const screenW = cityBg.clientWidth;

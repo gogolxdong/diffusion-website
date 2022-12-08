@@ -13,7 +13,7 @@ export const Header = () => {
         </Col>
         <Col span={12} className="right-nav">
           <a href="https://dfs-4.gitbook.io/diffusiondao/" target="_blank">{t('header.Document')}</a>
-          <a href="https://app.diffusiondao.org/" target="_blank">{t('header.Dapp')}</a>
+          <a href="https://app.diffusiondao.org/">{t('header.Dapp')}</a>
           <Dropdown overlay={LangMenu} placement="bottom">
             <img src={language} />
           </Dropdown>
