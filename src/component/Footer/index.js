@@ -69,7 +69,7 @@ export const Footer = () => {
             >
               <div className="list-item">
                 <div>{t('footer.Contact')}</div>
-                <div>GetDiffusion@protonmail.com</div>
+                <div>diffusiondao@protonmail.com</div>
               </div>
             </CSSTransition>
           </div>

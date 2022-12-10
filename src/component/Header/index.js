@@ -8,10 +8,10 @@ export const Header = () => {
   const { t } = useTranslation()
   return <div className="header-wrap">
     <Row>
-        <Col span={12} className="left-nav">
+        <Col span={4} className="left-nav">
           <div className="logo-wrap"></div>
         </Col>
-        <Col span={12} className="right-nav">
+        <Col span={20} className="right-nav">
           <a href="https://dfs-4.gitbook.io/diffusiondao/" target="_blank">{t('header.Document')}</a>
           <a href="https://app.diffusiondao.org/">{t('header.Dapp')}</a>
           <a href="https://diffusiondao.org/whitepaper.pdf">{t('header.Whitepaper')}</a>
